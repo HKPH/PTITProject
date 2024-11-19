@@ -1,0 +1,75 @@
+/* src/styles/AuthStyles.css */
+body {
+  background-color: #f9f9f9;
+  /* Màu nền nhẹ nhàng */
+  font-family: 'Arial', sans-serif;
+  /* Font chữ chung */
+}
+
+.auth-container {
+  max-width: 400px;
+  /* Giới hạn chiều rộng của form */
+  margin: 50px auto;
+  /* Căn giữa trang */
+  padding: 20px;
+  /* Khoảng cách bên trong */
+  background-color: white;
+  /* Nền trắng */
+  border-radius: 8px;
+  /* Bo góc */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Đổ bóng */
+}
+
+.ant-form-item-label>label {
+  font-weight: bold;
+  /* Đậm tiêu đề */
+  color: #ff8c00;
+  /* Màu cam cho tiêu đề */
+}
+
+.ant-input,
+.ant-input-password {
+  border: 1px solid #ff8c00;
+  /* Viền cam */
+  border-radius: 4px;
+  /* Bo góc */
+}
+
+.ant-input:focus,
+.ant-input-password:focus {
+  border-color: #ff8c00;
+  /* Viền cam khi focus */
+  box-shadow: 0 0 5px rgba(255, 140, 0, 0.5);
+  /* Đổ bóng nhẹ */
+}
+
+.ant-btn-primary {
+  background-color: #ff8c00;
+  /* Nền nút cam */
+  border-color: #ff8c00;
+  /* Viền nút cam */
+}
+
+.ant-btn-primary:hover {
+  background-color: #ff7a00;
+  /* Màu nền khi hover */
+  border-color: #ff7a00;
+  /* Viền khi hover */
+}
+
+.link {
+  display: block;
+  /* Mỗi link trên một dòng */
+  text-align: center;
+  /* Căn giữa */
+  margin-top: 10px;
+  /* Khoảng cách giữa các link */
+  color: #ff8c00;
+  /* Màu cam cho link */
+}
+
+.link:hover {
+  text-decoration: underline;
+  /* Gạch chân khi hover */
+}
