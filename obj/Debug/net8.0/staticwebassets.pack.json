@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Project\\ProjectPTIT\\BookStore\\BookStore\\wwwroot\\images\\20200427_164744.jpg",
+      "PackagePath": "staticwebassets\\images\\20200427_164744.jpg"
+    },
+    {
+      "Id": "D:\\Project\\ProjectPTIT\\BookStore\\BookStore\\wwwroot\\images\\81zeKRGCPpL.jpg",
+      "PackagePath": "staticwebassets\\images\\81zeKRGCPpL.jpg"
+    },
+    {
+      "Id": "D:\\Project\\ProjectPTIT\\BookStore\\BookStore\\wwwroot\\images\\AccGI.png",
+      "PackagePath": "staticwebassets\\images\\AccGI.png"
+    },
+    {
+      "Id": "D:\\Project\\ProjectPTIT\\BookStore\\BookStore\\wwwroot\\images\\Screenshot 2024-11-15 125208.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-11-15 125208.png"
+    },
+    {
+      "Id": "D:\\Project\\ProjectPTIT\\BookStore\\BookStore\\wwwroot\\images\\Screenshot 2024-11-15 125235.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-11-15 125235.png"
+    },
+    {
+      "Id": "D:\\Project\\ProjectPTIT\\BookStore\\BookStore\\wwwroot\\images\\Screenshot 2024-11-15 1252dsd08.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-11-15 1252dsd08.png"
+    },
+    {
+      "Id": "D:\\Project\\ProjectPTIT\\BookStore\\BookStore\\wwwroot\\images\\Screenshot 2024-11-16 210933.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-11-16 210933.png"
+    },
+    {
+      "Id": "D:\\Project\\ProjectPTIT\\BookStore\\BookStore\\wwwroot\\images\\Screenshot 2024-11-24 204034.png",
+      "PackagePath": "staticwebassets\\images\\Screenshot 2024-11-24 204034.png"
+    },
+    {
+      "Id": "D:\\Project\\ProjectPTIT\\BookStore\\BookStore\\wwwroot\\images\\mixed_hybrid 2024-11-17 203934.png",
+      "PackagePath": "staticwebassets\\images\\mixed_hybrid 2024-11-17 203934.png"
+    },
+    {
+      "Id": "D:\\Project\\ProjectPTIT\\BookStore\\BookStore\\wwwroot\\images\\pngtree-the-best-fall-books-image_13291316.jpg",
+      "PackagePath": "staticwebassets\\images\\pngtree-the-best-fall-books-image_13291316.jpg"
+    },
+    {
+      "Id": "D:\\Project\\ProjectPTIT\\BookStore\\BookStore\\wwwroot\\images\\switching_hybrid 2024-11-17 203832.png",
+      "PackagePath": "staticwebassets\\images\\switching_hybrid 2024-11-17 203832.png"
+    },
+    {
+      "Id": "D:\\Project\\ProjectPTIT\\BookStore\\BookStore\\wwwroot\\images\\switching_hybrid 2024-11-17 233425.png",
+      "PackagePath": "staticwebassets\\images\\switching_hybrid 2024-11-17 233425.png"
+    },
+    {
+      "Id": "D:\\Project\\ProjectPTIT\\BookStore\\BookStore\\wwwroot\\images\\weighted_hybrid 2024-11-17 203728.png",
+      "PackagePath": "staticwebassets\\images\\weighted_hybrid 2024-11-17 203728.png"
+    },
+    {
+      "Id": "D:\\Project\\ProjectPTIT\\BookStore\\BookStore\\wwwroot\\images\\z5770490970591_65b4065ace6fa24c1be22c2c90e9947d.jpg",
+      "PackagePath": "staticwebassets\\images\\z5770490970591_65b4065ace6fa24c1be22c2c90e9947d.jpg"
+    },
+    {
+      "Id": "D:\\Project\\ProjectPTIT\\BookStore\\BookStore\\wwwroot\\images\\z5770490981888_2c849de267b964b8e89a36b66b2f4275.jpg",
+      "PackagePath": "staticwebassets\\images\\z5770490981888_2c849de267b964b8e89a36b66b2f4275.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BookStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BookStore.props",
+      "PackagePath": "build\\BookStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BookStore.props",
+      "PackagePath": "buildMultiTargeting\\BookStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BookStore.props",
+      "PackagePath": "buildTransitive\\BookStore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
