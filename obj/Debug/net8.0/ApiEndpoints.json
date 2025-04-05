@@ -164,6 +164,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BookStore.Controllers.AccountController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/Account/refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshToken",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BookStore.Controllers.BookController",
     "Method": "GetAllBooks",
     "RelativePath": "api/Book",

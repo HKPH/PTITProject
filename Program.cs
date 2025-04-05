@@ -90,6 +90,12 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = builder.Configuration.GetConnectionString("Redis");
+});
+
+
 // Add Authorization with roles (1 = Admin, 2 = Customer)
 builder.Services.AddAuthorization(options =>
 {

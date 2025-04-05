@@ -9,7 +9,7 @@ using System.Diagnostics;
 
 namespace BookStore.Service
 {
-    public class AccountService : IAccountService 
+    public class AccountService : IAccountService
     {
         private readonly IAccountRepository _accountRepository;
         private readonly ICartRepository _cartRepository;
@@ -18,8 +18,8 @@ namespace BookStore.Service
         private readonly JwtHelper _jwtHelper;
         private readonly IMapper _mapper;
         public AccountService(IAccountRepository repository, ICartRepository cartRepository, IUserRepository userRepository,
-            IShippingAddressRepository shippingAddressRepository, JwtHelper jwtHelper, IMapper mapper) 
-        { 
+            IShippingAddressRepository shippingAddressRepository, JwtHelper jwtHelper, IMapper mapper)
+        {
             _accountRepository = repository;
             _cartRepository = cartRepository;
             _userRepository = userRepository;
@@ -89,14 +89,14 @@ namespace BookStore.Service
 
             await _cartRepository.CreateAsync(newCart);
             return (_mapper.Map<AccountDto>(createdAccount), _mapper.Map<UserDto>(createdUser));
-            
+
         }
         public async Task<bool> UpdateAsync(AccountDto accountDto, int id)
         {
             var account = _mapper.Map<Account>(accountDto);
 
             var accountExit = await _accountRepository.GetByIdAsync(id);
-            if(accountExit == null)
+            if (accountExit == null)
             {
                 throw new Exception("Account not exit");
             }
@@ -125,11 +125,11 @@ namespace BookStore.Service
             {
                 throw new Exception("Account not exit");
             }
-            if(accountExit.Password == BCrypt.Net.BCrypt.HashPassword(oldPassword))
+            if (accountExit.Password == BCrypt.Net.BCrypt.HashPassword(oldPassword))
             {
                 accountExit.Password = BCrypt.Net.BCrypt.HashPassword(newPassword);
-            }    
-            
+            }
+
             return await _accountRepository.UpdateAsync(accountExit, id);
         }
         public async Task<bool> ChangeActiveAsync(int id)
@@ -139,7 +139,7 @@ namespace BookStore.Service
             {
                 throw new Exception("Account not exit");
             }
-            if(accountExit.Role == 0)
+            if (accountExit.Role == 0)
             {
                 accountExit.Role = 1;
             }
@@ -150,10 +150,10 @@ namespace BookStore.Service
 
             return await _accountRepository.UpdateAsync(accountExit, id);
         }
-        public async Task<(string token, int userId)> LoginAsync(string username, string password)
+        public async Task<(string token, int userId, string refreshToken)> LoginAsync(string username, string password)
         {
             var account = await _accountRepository.GetByUsernameAsync(username);
-           
+
             if (account == null || !VerifyPassword(password, account.Password))
             {
                 throw new Exception("Invalid username or password.");
@@ -162,8 +162,9 @@ namespace BookStore.Service
             {
                 throw new Exception("Account is not active.");
             }
-            var token = _jwtHelper.GenerateJwtToken(account.Username, account.Role.GetValueOrDefault());
-            return (token, account.UserId.GetValueOrDefault());
+            var token = _jwtHelper.GenerateJwtToken(account.Id, account.Role.GetValueOrDefault());
+            var refreshToken = await _jwtHelper.GenerateAndCacheRefreshTokenAsync(account.Id);
+            return (token, account.UserId.GetValueOrDefault(), refreshToken);
         }
         public static bool VerifyPassword(string enteredPassword, string storedHashedPassword)
         {
@@ -203,6 +204,17 @@ namespace BookStore.Service
                 throw new Exception("Account not found.");
             }
             return await _accountRepository.DeleteAsync(id);
+        }
+
+        public async Task<string?> RefreshAccessTokenAsync(string refreshToken)
+        {
+            var tokenData = await _jwtHelper.ValidateRefreshTokenAsync(refreshToken);
+            if (tokenData is null) return null;
+
+            var account = await GetByIdAsync(tokenData.UserId);
+            if (account == null) return null;
+
+            return _jwtHelper.GenerateJwtToken(account.Id, account.Role);
         }
 
     }

@@ -4,6 +4,7 @@ using BookStore.Dtos;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using BookStore.Models;
+using BookStore.Helpers;
 
 namespace BookStore.Controllers
 {
@@ -91,12 +92,12 @@ namespace BookStore.Controllers
         {
             try
             {
-                var (token, userId) = await _accountService.LoginAsync(loginDto.Username, loginDto.Password);
+                var (token, userId, refreshToken) = await _accountService.LoginAsync(loginDto.Username, loginDto.Password);
                 if (token == null)
                 {
                     return Unauthorized(new { message = "Invalid username or password" });
                 }
-                return Ok(new { token, userId });
+                return Ok(new { token, refreshToken, userId });
             }
             catch (Exception ex)
             {
@@ -162,6 +163,19 @@ namespace BookStore.Controllers
                 return BadRequest(new { message = ex.Message });
             }
         }
+
+        // POST: api/account/refresh
+
+        [HttpPost("refresh")]
+        public async Task<IActionResult> RefreshToken([FromBody] string refreshToken)
+        {
+            var newAccessToken = await _accountService.RefreshAccessTokenAsync(refreshToken);
+            if (newAccessToken == null)
+                return Unauthorized(new { message = "Invalid or expired refresh token" });
+
+            return Ok(new { token = newAccessToken });
+        }
+
 
 
     }
