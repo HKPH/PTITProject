@@ -1,4 +1,5 @@
-﻿using BookStore.Dtos;
+﻿using BookStore.Attributes;
+using BookStore.Dtos;
 using BookStore.Service.Interface;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -19,7 +20,7 @@ namespace BookStore.Controllers
         // Số sách bán trong ngày
         [HttpGet("books-sold-by-day")]
         [Authorize(Policy = "AdminOnly")]
-
+        [Cached(60)]
         public async Task<IActionResult> GetBooksSoldByDay(DateTime date)
         {
             var booksSold = await _statisticsService.GetBooksSoldByDayAsync(date);
@@ -30,7 +31,7 @@ namespace BookStore.Controllers
         // Sách bán theo năm
         [HttpGet("books-sold-by-year")]
         [Authorize(Policy = "AdminOnly")]
-
+        [Cached(60)]
         public async Task<IActionResult> GetBooksSoldByYear(int year)
         {
             var booksSold = await _statisticsService.GetBooksSoldByYearAsync(year);
@@ -40,7 +41,7 @@ namespace BookStore.Controllers
         // Sách bán theo quý trong năm
         [HttpGet("books-sold-by-quarters")]
         [Authorize(Policy = "AdminOnly")]
-
+        [Cached(60)]
         public async Task<IActionResult> GetBooksSoldByQuarters(int year)
         {
             var booksSold = await _statisticsService.GetBooksSoldByQuartersAsync(year);
@@ -50,7 +51,7 @@ namespace BookStore.Controllers
         // Doanh thu trong ngày
         [HttpGet("revenue-by-day")]
         [Authorize(Policy = "AdminOnly")]
-
+        [Cached(60)]
         public async Task<IActionResult> GetRevenueByDay(DateTime date)
         {
             var revenue = await _statisticsService.GetRevenueByDayAsync(date);
@@ -60,7 +61,7 @@ namespace BookStore.Controllers
         // Doanh thu theo năm
         [HttpGet("revenue-by-year")]
         [Authorize(Policy = "AdminOnly")]
-
+        [Cached(60)]
         public async Task<IActionResult> GetRevenueByYear(int year)
         {
             var revenue = await _statisticsService.GetRevenueByYearAsync(year);
@@ -70,7 +71,7 @@ namespace BookStore.Controllers
         // Doanh thu theo quý trong năm
         [HttpGet("revenue-by-quarters")]
         [Authorize(Policy = "AdminOnly")]
-
+        [Cached(60)]
         public async Task<IActionResult> GetRevenueByQuarters(int year)
         {
             var revenue = await _statisticsService.GetRevenueByQuartersAsync(year);

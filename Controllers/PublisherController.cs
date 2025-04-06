@@ -6,6 +6,7 @@ using BookStore.Service.Interface;
 using Microsoft.AspNetCore.Authorization;
 using BookStore.Data;
 using Microsoft.EntityFrameworkCore;
+using BookStore.Attributes;
 
 namespace BookStore.Controllers
 {
@@ -46,7 +47,7 @@ namespace BookStore.Controllers
         // GET: api/Publisher/5
         [HttpGet("{id}")]
         [Authorize(Policy = "UserOrAdmin")]
-
+        [Cached(60)]
         public async Task<IActionResult> GetPublisherById(int id)
         {
             var publisher = await _publisherService.GetByIdAsync(id);

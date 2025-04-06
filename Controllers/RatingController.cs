@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using BookStore.Dtos;
 using BookStore.Service.Interface;
 using Microsoft.AspNetCore.Authorization;
+using BookStore.Attributes;
 
 namespace BookStore.Controllers
 {
@@ -21,7 +22,6 @@ namespace BookStore.Controllers
         // GET: api/Rating
         [HttpGet]
         [Authorize(Policy = "UserOrAdmin")]
-
         public async Task<IActionResult> GetAllRatings()
         {
             var ratings = await _ratingService.GetAllAsync();
@@ -31,7 +31,7 @@ namespace BookStore.Controllers
         // GET: api/Rating/ 
         [HttpGet("{id}")]
         [Authorize(Policy = "UserOrAdmin")]
-
+        [Cached(60)]
         public async Task<IActionResult> GetRatingById(int id)
         {
             var rating = await _ratingService.GetByIdAsync(id);
@@ -44,7 +44,7 @@ namespace BookStore.Controllers
 
         [HttpGet("book/{bookId}")]
         [Authorize(Policy = "UserOrAdmin")]
-
+        [Cached(60)]
         public async Task<IActionResult> GetRatingsByBookId(
                     int bookId,
                     [FromQuery] int page = 1,
@@ -117,6 +117,7 @@ namespace BookStore.Controllers
 
         // GET: api/Rating/5
         [HttpGet("ratings/{bookId}")]
+        [Cached(60)]
         public async Task<IActionResult> GetRatingCountByBookId(int bookId)
         {
             var ratingCounts = await _ratingService.GetRatingCountByBookIdAsync(bookId);

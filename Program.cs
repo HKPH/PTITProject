@@ -9,6 +9,8 @@ using BookStore.Repository.Interface;
 using BookStore.Helpers;
 using BookStore.Service.Interface;
 using BookStore.Service;
+using BookStore.Middleware;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -109,6 +111,8 @@ builder.Logging.AddConsole();
 builder.Logging.AddDebug();  
 
 var app = builder.Build();
+
+app.UseMiddleware<CachingMiddleware>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

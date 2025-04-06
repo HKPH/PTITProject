@@ -4,6 +4,7 @@ using BookStore.Dtos;
 using BookStore.Service.Interface;
 using System.Globalization;
 using Microsoft.AspNetCore.Authorization;
+using BookStore.Attributes;
 
 namespace BookStore.Controllers
 {
@@ -21,6 +22,7 @@ namespace BookStore.Controllers
         // GET: api/Book
         [HttpGet]
         [Authorize(Policy = "UserOrAdmin")]
+        [Cached(60)]
         public async Task<IActionResult> GetAllBooks(int page = 1, int pageSize = 10, string ? category = null, string ? sortBy = null, bool isDescending = false, string ? searchTerm = null)
         {
             var paginatedBooks = await _bookService.GetAllAsync(page, pageSize, category, sortBy, isDescending, searchTerm);
@@ -31,6 +33,7 @@ namespace BookStore.Controllers
         // GET: api/Book/{id}
         [HttpGet("{id}")]
         [Authorize(Policy = "UserOrAdmin")]
+        [Cached(60)]
         public async Task<IActionResult> GetBookById(int id)
         {
             var book = await _bookService.GetByIdAsync(id);
@@ -91,6 +94,7 @@ namespace BookStore.Controllers
         // GET: api/Book/{id}/categories
         [HttpGet("{id}/categories")]
         [Authorize(Policy = "UserOrAdmin")]
+        [Cached(60)]
         public async Task<IActionResult> GetCategoryByBookId(int id)
         {
             var categories = await _bookService.GetCategoryByBookId(id);

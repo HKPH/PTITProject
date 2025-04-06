@@ -6,6 +6,7 @@ using BookStore.Service.Interface;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using BookStore.Data;
+using BookStore.Attributes;
 
 namespace BookStore.Controllers
 {
@@ -47,7 +48,7 @@ namespace BookStore.Controllers
         // GET: api/Category/5
         [HttpGet("{id}")]
         [Authorize(Policy = "UserOrAdmin")]
-
+        [Cached(60)]
         public async Task<IActionResult> GetCategoryById(int id)
         {
             var category = await _categoryService.GetByIdAsync(id);
