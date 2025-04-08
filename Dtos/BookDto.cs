@@ -24,7 +24,6 @@ namespace BookStore.Dtos
 
         public string? Image { get; set; }
 
-        public virtual ICollection<Category> Categories { get; set; } = new List<Category>();
     }
 
 }

@@ -3,6 +3,7 @@ using System;
 using BookStore.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -17,135 +18,122 @@ namespace BookStore.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "8.0.0")
-                .HasAnnotation("Relational:MaxIdentifierLength", 64);
+                .HasAnnotation("Relational:MaxIdentifierLength", 128);
+
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("BookCategory", b =>
+                {
+                    b.Property<int>("BooksId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CategoriesId")
+                        .HasColumnType("int");
+
+                    b.HasKey("BooksId", "CategoriesId");
+
+                    b.HasIndex("CategoriesId");
+
+                    b.ToTable("JoinBookCategory", (string)null);
+                });
 
             modelBuilder.Entity("BookStore.Models.Account", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("id");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<bool?>("Active")
-                        .HasColumnType("tinyint(1)")
-                        .HasColumnName("active");
+                        .HasColumnType("bit");
 
                     b.Property<DateTime?>("CreateDate")
-                        .HasColumnType("datetime")
-                        .HasColumnName("createDate");
+                        .HasColumnType("datetime");
 
                     b.Property<string>("Email")
                         .HasMaxLength(255)
-                        .HasColumnType("varchar(255)")
-                        .HasColumnName("email");
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<string>("Password")
                         .HasMaxLength(255)
-                        .HasColumnType("varchar(255)")
-                        .HasColumnName("password");
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<int?>("Role")
-                        .HasColumnType("int")
-                        .HasColumnName("role");
+                        .HasColumnType("int");
 
                     b.Property<int?>("UserId")
-                        .HasColumnType("int")
-                        .HasColumnName("userId");
+                        .HasColumnType("int");
 
                     b.Property<string>("Username")
                         .HasMaxLength(50)
-                        .HasColumnType("varchar(50)")
-                        .HasColumnName("username");
+                        .HasColumnType("nvarchar(50)");
 
-                    b.HasKey("Id")
-                        .HasName("PK__Account__3213E83F2B6CCC80");
+                    b.HasKey("Id");
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Account", (string)null);
+                    b.ToTable("Accounts");
                 });
 
             modelBuilder.Entity("BookStore.Models.Book", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("id");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<bool?>("Active")
-                        .HasColumnType("tinyint(1)")
-                        .HasColumnName("active");
+                        .HasColumnType("bit");
 
                     b.Property<string>("Author")
-                        .HasColumnType("longtext")
-                        .HasColumnName("author");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Description")
-                        .HasColumnType("longtext")
-                        .HasColumnName("description");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Image")
-                        .HasColumnType("longtext")
-                        .HasColumnName("image");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal?>("Price")
-                        .HasColumnType("decimal(18, 3)")
-                        .HasColumnName("price");
+                        .HasColumnType("decimal(18,3)");
 
                     b.Property<DateTime?>("PublicationDate")
-                        .HasColumnType("datetime")
-                        .HasColumnName("publicationDate");
+                        .HasColumnType("datetime");
 
                     b.Property<int?>("PublisherId")
-                        .HasColumnType("int")
-                        .HasColumnName("publisherId");
+                        .HasColumnType("int");
 
                     b.Property<int?>("StockQuantity")
-                        .HasColumnType("int")
-                        .HasColumnName("stockQuantity");
+                        .HasColumnType("int");
 
                     b.Property<string>("Title")
-                        .HasColumnType("longtext")
-                        .HasColumnName("title");
+                        .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id")
-                        .HasName("PK__Book__3213E83FCA72EFC3");
+                    b.HasKey("Id");
 
                     b.HasIndex("PublisherId");
 
-                    b.ToTable("Book", (string)null);
-                });
-
-            modelBuilder.Entity("BookStore.Models.BookCategory", b =>
-                {
-                    b.Property<int>("BookId")
-                        .HasColumnType("int")
-                        .HasColumnName("bookId");
-
-                    b.Property<int>("CategoryId")
-                        .HasColumnType("int")
-                        .HasColumnName("categoryId");
-
-                    b.ToTable("BookCategory", (string)null);
+                    b.ToTable("Books");
                 });
 
             modelBuilder.Entity("BookStore.Models.Cart", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("id");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int?>("UserId")
-                        .HasColumnType("int")
-                        .HasColumnName("userId");
+                        .HasColumnType("int");
 
-                    b.HasKey("Id")
-                        .HasName("PK__Cart__3213E83F269FFE73");
+                    b.HasKey("Id");
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Cart", (string)null);
+                    b.ToTable("Carts");
                 });
 
             modelBuilder.Entity("BookStore.Models.CartItem", b =>
@@ -153,6 +141,8 @@ namespace BookStore.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<int>("BookId")
                         .HasColumnType("int");
@@ -163,77 +153,70 @@ namespace BookStore.Migrations
                     b.Property<int?>("Quantity")
                         .HasColumnType("int");
 
-                    b.HasKey("Id")
-                        .HasName("PK__CartItem__3214EC07D80B5D6C");
+                    b.HasKey("Id");
 
                     b.HasIndex("BookId");
 
                     b.HasIndex("CartId");
 
-                    b.ToTable("CartItem", (string)null);
+                    b.ToTable("CartItems");
                 });
 
             modelBuilder.Entity("BookStore.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("id");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<bool?>("Active")
-                        .HasColumnType("tinyint(1)")
-                        .HasColumnName("active");
+                        .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .HasMaxLength(255)
-                        .HasColumnType("varchar(255)")
-                        .HasColumnName("name");
+                        .HasColumnType("nvarchar(255)");
 
-                    b.HasKey("Id")
-                        .HasName("PK__Category__3213E83FBA9C5017");
+                    b.HasKey("Id");
 
-                    b.ToTable("Category", (string)null);
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("BookStore.Models.Order", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("id");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime?>("OrderDate")
-                        .HasColumnType("datetime")
-                        .HasColumnName("orderDate");
+                        .HasColumnType("datetime");
 
-                    b.Property<int?>("PaymentId")
-                        .HasColumnType("int")
-                        .HasColumnName("paymentId");
+                    b.Property<int>("PaymentId")
+                        .HasColumnType("int");
 
-                    b.Property<int?>("ShipmentId")
-                        .HasColumnType("int")
-                        .HasColumnName("shipmentId");
+                    b.Property<int>("ShipmentId")
+                        .HasColumnType("int");
 
                     b.Property<int?>("Status")
-                        .HasColumnType("int")
-                        .HasColumnName("status");
+                        .HasColumnType("int");
 
                     b.Property<decimal?>("TotalPrice")
-                        .HasColumnType("decimal(18, 3)")
-                        .HasColumnName("totalPrice");
+                        .HasColumnType("decimal(18,3)");
 
                     b.Property<int>("UserId")
-                        .HasColumnType("int")
-                        .HasColumnName("userId");
+                        .HasColumnType("int");
 
-                    b.HasKey("Id")
-                        .HasName("PK__Order__3213E83F7E266E2C");
+                    b.HasKey("Id");
 
                     b.HasIndex("PaymentId");
 
                     b.HasIndex("ShipmentId");
 
-                    b.ToTable("Order", (string)null);
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("BookStore.Models.OrderItem", b =>
@@ -242,6 +225,8 @@ namespace BookStore.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
                     b.Property<int>("BookId")
                         .HasColumnType("int");
 
@@ -249,245 +234,214 @@ namespace BookStore.Migrations
                         .HasColumnType("int");
 
                     b.Property<decimal?>("Price")
-                        .HasColumnType("decimal(18, 3)");
+                        .HasColumnType("decimal(18,3)");
 
                     b.Property<int?>("Quantity")
                         .HasColumnType("int");
 
-                    b.HasKey("Id")
-                        .HasName("PK__OrderIte__3214EC07F2EFED56");
+                    b.HasKey("Id");
 
                     b.HasIndex("BookId");
 
                     b.HasIndex("OrderId");
 
-                    b.ToTable("OrderItem", (string)null);
+                    b.ToTable("OrderItems");
                 });
 
             modelBuilder.Entity("BookStore.Models.Payment", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("id");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<decimal?>("Amount")
-                        .HasColumnType("decimal(18, 3)")
-                        .HasColumnName("amount");
+                        .HasColumnType("decimal(18,3)");
 
                     b.Property<DateTime?>("PaymentDate")
-                        .HasColumnType("datetime")
-                        .HasColumnName("paymentDate");
+                        .HasColumnType("datetime");
 
                     b.Property<string>("PaymentMethod")
                         .HasMaxLength(50)
-                        .HasColumnType("varchar(50)")
-                        .HasColumnName("paymentMethod");
+                        .HasColumnType("nvarchar(50)");
 
-                    b.HasKey("Id")
-                        .HasName("PK__Payment__3213E83FD08F1548");
+                    b.HasKey("Id");
 
-                    b.ToTable("Payment", (string)null);
+                    b.ToTable("Payments");
                 });
 
             modelBuilder.Entity("BookStore.Models.Publisher", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("id");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<bool?>("Active")
-                        .HasColumnType("tinyint(1)")
-                        .HasColumnName("active");
+                        .HasColumnType("bit");
 
                     b.Property<string>("Name")
-                        .HasColumnType("longtext")
-                        .HasColumnName("name");
+                        .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id")
-                        .HasName("PK__Publishe__3213E83F4BB6DE63");
+                    b.HasKey("Id");
 
-                    b.ToTable("Publisher", (string)null);
+                    b.ToTable("Publishers");
                 });
 
             modelBuilder.Entity("BookStore.Models.Rating", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("id");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<bool?>("Active")
-                        .HasColumnType("tinyint(1)")
-                        .HasColumnName("active");
+                        .HasColumnType("bit");
 
                     b.Property<int?>("BookId")
-                        .HasColumnType("int")
-                        .HasColumnName("bookId");
+                        .HasColumnType("int");
 
                     b.Property<string>("Comment")
                         .HasMaxLength(255)
-                        .HasColumnType("varchar(255)")
-                        .HasColumnName("comment");
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<DateTime?>("CreateDate")
-                        .HasColumnType("datetime")
-                        .HasColumnName("createDate");
+                        .HasColumnType("datetime");
 
                     b.Property<string>("Photo")
                         .HasMaxLength(255)
-                        .HasColumnType("varchar(255)")
-                        .HasColumnName("photo");
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<int?>("UserId")
-                        .HasColumnType("int")
-                        .HasColumnName("userId");
+                        .HasColumnType("int");
 
                     b.Property<int?>("Value")
-                        .HasColumnType("int")
-                        .HasColumnName("value");
+                        .HasColumnType("int");
 
-                    b.HasKey("Id")
-                        .HasName("PK__Rating__3213E83FF89B23AB");
+                    b.HasKey("Id");
 
                     b.HasIndex("BookId");
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Rating", (string)null);
+                    b.ToTable("Ratings");
                 });
 
             modelBuilder.Entity("BookStore.Models.Shipment", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("id");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime?>("DateReceived")
-                        .HasColumnType("datetime")
-                        .HasColumnName("dateReceived");
+                        .HasColumnType("datetime");
 
                     b.Property<decimal?>("Fee")
-                        .HasColumnType("decimal(18, 3)")
-                        .HasColumnName("fee");
+                        .HasColumnType("decimal(18,3)");
 
                     b.Property<int?>("ShippingAddressId")
-                        .HasColumnType("int")
-                        .HasColumnName("shippingAddressId");
+                        .HasColumnType("int");
 
-                    b.HasKey("Id")
-                        .HasName("PK__Shipment__3213E83F2F191BEA");
+                    b.HasKey("Id");
 
                     b.HasIndex("ShippingAddressId");
 
-                    b.ToTable("Shipment", (string)null);
+                    b.ToTable("Shipments");
                 });
 
             modelBuilder.Entity("BookStore.Models.ShippingAddress", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("id");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Address")
                         .HasMaxLength(255)
-                        .HasColumnType("varchar(255)")
-                        .HasColumnName("address");
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<string>("CustomerNumber")
                         .HasMaxLength(50)
-                        .HasColumnType("varchar(50)")
-                        .HasColumnName("customerNumber");
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Note")
                         .HasMaxLength(255)
-                        .HasColumnType("varchar(255)")
-                        .HasColumnName("note");
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<int?>("UserId")
-                        .HasColumnType("int")
-                        .HasColumnName("userId");
+                        .HasColumnType("int");
 
-                    b.HasKey("Id")
-                        .HasName("PK__Shipping__3213E83F44594E3C");
+                    b.HasKey("Id");
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("ShippingAddress", (string)null);
+                    b.ToTable("ShippingAddresses");
                 });
 
             modelBuilder.Entity("BookStore.Models.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("id");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<bool?>("Active")
-                        .HasColumnType("tinyint(1)")
-                        .HasColumnName("active");
+                        .HasColumnType("bit");
 
                     b.Property<string>("Address")
                         .HasMaxLength(255)
-                        .HasColumnType("varchar(255)")
-                        .HasColumnName("address");
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<DateTime?>("Dob")
-                        .HasColumnType("datetime")
-                        .HasColumnName("dob");
+                        .HasColumnType("datetime");
 
                     b.Property<string>("Email")
                         .HasMaxLength(255)
-                        .HasColumnType("varchar(255)")
-                        .HasColumnName("email");
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<int?>("Gender")
-                        .HasColumnType("int")
-                        .HasColumnName("gender");
+                        .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .HasMaxLength(255)
-                        .HasColumnType("varchar(255)")
-                        .HasColumnName("name");
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<string>("Phone")
                         .HasMaxLength(50)
-                        .HasColumnType("varchar(50)")
-                        .HasColumnName("phone");
+                        .HasColumnType("nvarchar(50)");
 
-                    b.HasKey("Id")
-                        .HasName("PK__User__3213E83FD52EBEA5");
+                    b.HasKey("Id");
 
-                    b.ToTable("User", (string)null);
+                    b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("JoinBookCategory", b =>
+            modelBuilder.Entity("BookCategory", b =>
                 {
-                    b.Property<int>("BookId")
-                        .HasColumnType("int")
-                        .HasColumnName("bookId");
+                    b.HasOne("BookStore.Models.Book", null)
+                        .WithMany()
+                        .HasForeignKey("BooksId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.Property<int>("CategoryId")
-                        .HasColumnType("int")
-                        .HasColumnName("categoryId");
-
-                    b.HasKey("BookId", "CategoryId")
-                        .HasName("PK__JoinBook__19D90E10B4823A18");
-
-                    b.HasIndex("CategoryId");
-
-                    b.ToTable("JoinBookCategory", (string)null);
+                    b.HasOne("BookStore.Models.Category", null)
+                        .WithMany()
+                        .HasForeignKey("CategoriesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("BookStore.Models.Account", b =>
                 {
                     b.HasOne("BookStore.Models.User", "User")
                         .WithMany("Accounts")
-                        .HasForeignKey("UserId")
-                        .HasConstraintName("FK_Account_User");
+                        .HasForeignKey("UserId");
 
                     b.Navigation("User");
                 });
@@ -496,8 +450,7 @@ namespace BookStore.Migrations
                 {
                     b.HasOne("BookStore.Models.Publisher", "Publisher")
                         .WithMany("Books")
-                        .HasForeignKey("PublisherId")
-                        .HasConstraintName("FK__Book__publisherI__498EEC8D");
+                        .HasForeignKey("PublisherId");
 
                     b.Navigation("Publisher");
                 });
@@ -506,8 +459,7 @@ namespace BookStore.Migrations
                 {
                     b.HasOne("BookStore.Models.User", "User")
                         .WithMany("Carts")
-                        .HasForeignKey("UserId")
-                        .HasConstraintName("FK_Cart_User");
+                        .HasForeignKey("UserId");
 
                     b.Navigation("User");
                 });
@@ -517,14 +469,12 @@ namespace BookStore.Migrations
                     b.HasOne("BookStore.Models.Book", "Book")
                         .WithMany("CartItems")
                         .HasForeignKey("BookId")
-                        .IsRequired()
-                        .HasConstraintName("FK_CartItem_Book");
+                        .IsRequired();
 
                     b.HasOne("BookStore.Models.Cart", "Cart")
                         .WithMany("CartItems")
                         .HasForeignKey("CartId")
-                        .IsRequired()
-                        .HasConstraintName("FK_CartItem_Cart");
+                        .IsRequired();
 
                     b.Navigation("Book");
 
@@ -536,16 +486,26 @@ namespace BookStore.Migrations
                     b.HasOne("BookStore.Models.Payment", "Payment")
                         .WithMany("Orders")
                         .HasForeignKey("PaymentId")
-                        .HasConstraintName("FK_Order_Payment");
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("BookStore.Models.Shipment", "Shipment")
                         .WithMany("Orders")
                         .HasForeignKey("ShipmentId")
-                        .HasConstraintName("FK_Order_Shipment");
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("BookStore.Models.User", "User")
+                        .WithMany("Orders")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("Payment");
 
                     b.Navigation("Shipment");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("BookStore.Models.OrderItem", b =>
@@ -571,13 +531,11 @@ namespace BookStore.Migrations
                 {
                     b.HasOne("BookStore.Models.Book", "Book")
                         .WithMany("Ratings")
-                        .HasForeignKey("BookId")
-                        .HasConstraintName("FK__Rating__bookId__55F4C372");
+                        .HasForeignKey("BookId");
 
                     b.HasOne("BookStore.Models.User", "User")
                         .WithMany("Ratings")
-                        .HasForeignKey("UserId")
-                        .HasConstraintName("FK_Rating_User");
+                        .HasForeignKey("UserId");
 
                     b.Navigation("Book");
 
@@ -588,8 +546,7 @@ namespace BookStore.Migrations
                 {
                     b.HasOne("BookStore.Models.ShippingAddress", "ShippingAddress")
                         .WithMany("Shipments")
-                        .HasForeignKey("ShippingAddressId")
-                        .HasConstraintName("FK__Shipment__shippi__671F4F74");
+                        .HasForeignKey("ShippingAddressId");
 
                     b.Navigation("ShippingAddress");
                 });
@@ -598,25 +555,9 @@ namespace BookStore.Migrations
                 {
                     b.HasOne("BookStore.Models.User", "User")
                         .WithMany("ShippingAddresses")
-                        .HasForeignKey("UserId")
-                        .HasConstraintName("FK_ShippingAddress_User");
+                        .HasForeignKey("UserId");
 
                     b.Navigation("User");
-                });
-
-            modelBuilder.Entity("JoinBookCategory", b =>
-                {
-                    b.HasOne("BookStore.Models.Book", null)
-                        .WithMany()
-                        .HasForeignKey("BookId")
-                        .IsRequired()
-                        .HasConstraintName("FK_JoinBookCategory_Book");
-
-                    b.HasOne("BookStore.Models.Category", null)
-                        .WithMany()
-                        .HasForeignKey("CategoryId")
-                        .IsRequired()
-                        .HasConstraintName("FK_JoinBookCategory_Category");
                 });
 
             modelBuilder.Entity("BookStore.Models.Book", b =>
@@ -663,6 +604,8 @@ namespace BookStore.Migrations
                     b.Navigation("Accounts");
 
                     b.Navigation("Carts");
+
+                    b.Navigation("Orders");
 
                     b.Navigation("Ratings");
 

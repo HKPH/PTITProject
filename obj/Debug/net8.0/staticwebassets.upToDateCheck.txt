@@ -8,6 +8,7 @@ wwwroot\images\Screenshot 2024-11-15 125235.png
 wwwroot\images\Screenshot 2024-11-15 1252dsd08.png
 wwwroot\images\Screenshot 2024-11-16 210933.png
 wwwroot\images\Screenshot 2024-11-24 204034.png
+wwwroot\images\Screenshot 2025-01-20 235348.png
 wwwroot\images\switching_hybrid 2024-11-17 203832.png
 wwwroot\images\switching_hybrid 2024-11-17 233425.png
 wwwroot\images\weighted_hybrid 2024-11-17 203728.png

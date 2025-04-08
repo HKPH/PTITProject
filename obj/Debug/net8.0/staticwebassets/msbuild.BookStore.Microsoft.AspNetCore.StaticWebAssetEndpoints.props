@@ -120,6 +120,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-k/npEw9RTlFgbZCuyMN3gMPV3zE8C3eUUXsJadh8aF0="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"100720"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022k/npEw9RTlFgbZCuyMN3gMPV3zE8C3eUUXsJadh8aF0=\u0022"},{"Name":"Last-Modified","Value":"Thu, 26 Dec 2024 02:15:12 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BookStore/images/Screenshot 2025-01-20 235348.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Screenshot 2025-01-20 235348.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Q1pMsOJ0MODO2jYtTx7ubxyrLBKzEmPXWPSXg3XUGRo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"315664"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Q1pMsOJ0MODO2jYtTx7ubxyrLBKzEmPXWPSXg3XUGRo=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Apr 2025 03:37:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BookStore/images/Screenshot 2025-01-20 235348.tkp51x5uc1.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Screenshot 2025-01-20 235348.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tkp51x5uc1"},{"Name":"integrity","Value":"sha256-Q1pMsOJ0MODO2jYtTx7ubxyrLBKzEmPXWPSXg3XUGRo="},{"Name":"label","Value":"_content/BookStore/images/Screenshot 2025-01-20 235348.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"315664"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Q1pMsOJ0MODO2jYtTx7ubxyrLBKzEmPXWPSXg3XUGRo=\u0022"},{"Name":"Last-Modified","Value":"Tue, 08 Apr 2025 03:37:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BookStore/images/switching_hybrid 2024-11-17 203832.3it9vq80k5.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\switching_hybrid 2024-11-17 203832.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

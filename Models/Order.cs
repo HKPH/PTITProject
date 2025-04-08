@@ -21,7 +21,9 @@ public partial class Order
 
     public virtual ICollection<OrderItem> OrderItems { get; set; } = new List<OrderItem>();
 
-    public virtual Payment? Payment { get; set; }
+    public virtual Payment Payment { get; set; }
 
-    public virtual Shipment? Shipment { get; set; }
+    public virtual User User { get; set; }
+
+    public virtual Shipment Shipment { get; set; }
 }

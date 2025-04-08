@@ -25,7 +25,7 @@ builder.Services.AddCors(options =>
 });
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddDbContext<BookStoreContext>(options =>
-    options.UseMySQL(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddControllers();
 
@@ -111,6 +111,7 @@ builder.Logging.AddConsole();
 builder.Logging.AddDebug();  
 
 var app = builder.Build();
+app.UseCors("AllowSpecificOrigin");
 
 app.UseMiddleware<CachingMiddleware>();
 
@@ -120,9 +121,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseCors("AllowSpecificOrigin");
 app.UseStaticFiles();
 app.UseHttpsRedirection();
+
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
