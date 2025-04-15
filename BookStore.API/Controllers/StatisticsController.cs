@@ -1,6 +1,6 @@
 ﻿using BookStore.Api.Attributes;
 using BookStore.Application.Dtos;
-using BookStore.Application.Service.Interface;
+using BookStore.Application.Interface.Service;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 

@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using BookStore.Application.Service.Interface;
 using BookStore.Application.Dtos;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using BookStore.Domain.Entities;
+using BookStore.Application.Entities;
 using BookStore.Api.Helpers;
+using BookStore.Application.Interface.Service;
 
 namespace BookStore.Api.Controllers
 {

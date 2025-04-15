@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using BookStore.Application.Repository.Interface;
+using BookStore.Application.Interface.Repository;
 
 namespace BookStore.Infrastructure.Repository
 {

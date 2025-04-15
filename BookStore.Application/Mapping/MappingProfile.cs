@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using BookStore.Application.Dtos;
-using BookStore.Domain.Entities;
+using BookStore.Application.Entities;
 
 namespace BookStore.Application.Mapping
 {

@@ -3,6 +3,94 @@
   "WorkspaceRootPath": "D:\\Project\\ASP.NET\\BookStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\repository\\iratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\repository\\iratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\repository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\repository\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\repository\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\repository\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\repository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\repository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36F837BB-68F3-A90B-B140-61B061114DE7}|BookStore.API\\BookStore.API.csproj|d:\\project\\asp.net\\bookstore\\bookstore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36F837BB-68F3-A90B-B140-61B061114DE7}|BookStore.API\\BookStore.API.csproj|solutionrelative:bookstore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\service\\accountservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\service\\accountservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\service\\ishipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\service\\ishipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\service\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\service\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\service\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\service\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\service\\iorderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\service\\iorderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\service\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\service\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\service\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\service\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\service\\icartitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\service\\icartitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\service\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\service\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\service\\iaccountservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\service\\iaccountservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\repository\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\repository\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\repository\\ipublisherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\repository\\ipublisherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\repository\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\repository\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\repository\\iorderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\repository\\iorderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\repository\\icartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\repository\\icartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\repository\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\repository\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{36F837BB-68F3-A90B-B140-61B061114DE7}|BookStore.API\\BookStore.API.csproj|d:\\project\\asp.net\\bookstore\\bookstore.api\\middleware\\cachingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36F837BB-68F3-A90B-B140-61B061114DE7}|BookStore.API\\BookStore.API.csproj|solutionrelative:bookstore.api\\middleware\\cachingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +101,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{36F837BB-68F3-A90B-B140-61B061114DE7}|BookStore.API\\BookStore.API.csproj|d:\\project\\asp.net\\bookstore\\bookstore.api\\bookstore.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{36F837BB-68F3-A90B-B140-61B061114DE7}|BookStore.API\\BookStore.API.csproj|solutionrelative:bookstore.api\\bookstore.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36F837BB-68F3-A90B-B140-61B061114DE7}|BookStore.API\\BookStore.API.csproj|d:\\project\\asp.net\\bookstore\\bookstore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36F837BB-68F3-A90B-B140-61B061114DE7}|BookStore.API\\BookStore.API.csproj|solutionrelative:bookstore.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36F837BB-68F3-A90B-B140-61B061114DE7}|BookStore.API\\BookStore.API.csproj|d:\\project\\asp.net\\bookstore\\bookstore.api\\controllers\\publishercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,10 +121,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\service\\accountservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\service\\accountservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CFDA3BC5-31BD-902C-3E07-79C41C2BC82D}|BookStore.Infrastructure\\BookStore.Infrastructure.csproj|d:\\project\\asp.net\\bookstore\\bookstore.infrastructure\\migrations\\bookstorecontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,12 +179,8 @@
       "RelativeMoniker": "D:0:0:{CFDA3BC5-31BD-902C-3E07-79C41C2BC82D}|BookStore.Infrastructure\\BookStore.Infrastructure.csproj|solutionrelative:bookstore.infrastructure\\repository\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\repository\\interface\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\repository\\interface\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\service\\interface\\ipublisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\service\\interface\\ipublisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\service\\ipublisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\service\\ipublisherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36F837BB-68F3-A90B-B140-61B061114DE7}|BookStore.API\\BookStore.API.csproj|d:\\project\\asp.net\\bookstore\\bookstore.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -167,26 +243,6 @@
       "RelativeMoniker": "D:0:0:{36F837BB-68F3-A90B-B140-61B061114DE7}|BookStore.API\\BookStore.API.csproj|solutionrelative:bookstore.api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\service\\interface\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\service\\interface\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\service\\interface\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\service\\interface\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\service\\interface\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\service\\interface\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\service\\interface\\iaccountservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\service\\interface\\iaccountservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\dtos\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -203,40 +259,20 @@
       "RelativeMoniker": "D:0:0:{36F837BB-68F3-A90B-B140-61B061114DE7}|BookStore.API\\BookStore.API.csproj|solutionrelative:bookstore.api\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\service\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\service\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\service\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\service\\interface\\istatisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\service\\interface\\istatisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\service\\istatisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\service\\istatisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\service\\interface\\ishippingaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\service\\interface\\ishippingaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\service\\ishippingaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\service\\ishippingaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\service\\interface\\ishipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\service\\interface\\ishipmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\service\\interface\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\service\\interface\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\service\\interface\\iratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\service\\interface\\iratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\service\\interface\\iorderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\service\\interface\\iorderitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\service\\interface\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\service\\interface\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\service\\interface\\icartitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\service\\interface\\icartitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\service\\iratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\service\\iratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36F837BB-68F3-A90B-B140-61B061114DE7}|BookStore.API\\BookStore.API.csproj|d:\\project\\asp.net\\bookstore\\bookstore.api\\controllers\\statisticscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -267,60 +303,24 @@
       "RelativeMoniker": "D:0:0:{36F837BB-68F3-A90B-B140-61B061114DE7}|BookStore.API\\BookStore.API.csproj|solutionrelative:bookstore.api\\controllers\\imageuploadcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\repository\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\repository\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\repository\\interface\\istatisticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\repository\\interface\\istatisticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\repository\\istatisticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\repository\\istatisticsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\repository\\interface\\ishippingaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\repository\\interface\\ishippingaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\repository\\ishippingaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\repository\\ishippingaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\repository\\interface\\ishipmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\repository\\interface\\ishipmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\repository\\ishipmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\repository\\ishipmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\repository\\interface\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\repository\\interface\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\repository\\interface\\icartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\repository\\interface\\icartitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\repository\\interface\\iratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\repository\\interface\\iratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\repository\\interface\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\repository\\interface\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\repository\\interface\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\repository\\interface\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\repository\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\repository\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\repository\\interface\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\repository\\interface\\ipaymentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\repository\\interface\\ipublisherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\repository\\interface\\ipublisherrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\repository\\interface\\iorderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\repository\\interface\\iorderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\interface\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\interface\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\dtos\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -341,66 +341,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\dtos\\publisherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|solutionrelative:bookstore.application\\dtos\\publisherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|d:\\project\\asp.net\\bookstore\\bookstore.domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|solutionrelative:bookstore.domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|d:\\project\\asp.net\\bookstore\\bookstore.domain\\entities\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|solutionrelative:bookstore.domain\\entities\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|d:\\project\\asp.net\\bookstore\\bookstore.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|solutionrelative:bookstore.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|d:\\project\\asp.net\\bookstore\\bookstore.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|solutionrelative:bookstore.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|d:\\project\\asp.net\\bookstore\\bookstore.domain\\entities\\shippingaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|solutionrelative:bookstore.domain\\entities\\shippingaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|d:\\project\\asp.net\\bookstore\\bookstore.domain\\entities\\shipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|solutionrelative:bookstore.domain\\entities\\shipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|d:\\project\\asp.net\\bookstore\\bookstore.domain\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|solutionrelative:bookstore.domain\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|d:\\project\\asp.net\\bookstore\\bookstore.domain\\entities\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|solutionrelative:bookstore.domain\\entities\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|d:\\project\\asp.net\\bookstore\\bookstore.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|solutionrelative:bookstore.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|d:\\project\\asp.net\\bookstore\\bookstore.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|solutionrelative:bookstore.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|d:\\project\\asp.net\\bookstore\\bookstore.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|solutionrelative:bookstore.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|d:\\project\\asp.net\\bookstore\\bookstore.domain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|solutionrelative:bookstore.domain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|d:\\project\\asp.net\\bookstore\\bookstore.domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|solutionrelative:bookstore.domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|d:\\project\\asp.net\\bookstore\\bookstore.domain\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|solutionrelative:bookstore.domain\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|d:\\project\\asp.net\\bookstore\\bookstore.domain\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DB1A271-0A0D-2134-F192-63CC1B6F4B9D}|BookStore.Domain\\BookStore.Domain.csproj|solutionrelative:bookstore.domain\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36D723C3-7AB6-F7A0-9830-06BF19C4F2DA}|BookStore.Application\\BookStore.Application.csproj|d:\\project\\asp.net\\bookstore\\bookstore.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -462,7 +402,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -470,31 +410,332 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PublisherController.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Controllers\\PublisherController.cs",
-              "RelativeDocumentMoniker": "BookStore.API\\Controllers\\PublisherController.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Controllers\\PublisherController.cs",
-              "RelativeToolTip": "BookStore.API\\Controllers\\PublisherController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:33:58.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Program.cs",
               "RelativeDocumentMoniker": "BookStore.API\\Program.cs",
               "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Program.cs",
               "RelativeToolTip": "BookStore.API\\Program.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAQwIIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:07:35.12Z"
+              "WhenOpened": "2025-04-14T07:07:35.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartDto.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Dtos\\CartDto.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Dtos\\CartDto.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Dtos\\CartDto.cs",
+              "RelativeToolTip": "BookStore.Application\\Dtos\\CartDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T04:42:15.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Repository\\ICategoryRepository.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\ICategoryRepository.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Repository\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T04:57:53.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICartRepository.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\ICartRepository.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Repository\\ICartRepository.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\ICartRepository.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Repository\\ICartRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T04:57:48.625Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Repository\\IOrderRepository.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IOrderRepository.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Repository\\IOrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T04:58:01.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IRatingRepository.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IRatingRepository.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Repository\\IRatingRepository.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IRatingRepository.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Repository\\IRatingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T04:58:12.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountService .cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\AccountService .cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Service\\AccountService .cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\AccountService .cs",
+              "RelativeToolTip": "BookStore.Application\\Service\\AccountService .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T06:45:21.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IShipmentService.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\IShipmentService.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Service\\IShipmentService.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\IShipmentService.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Service\\IShipmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T06:38:12.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Service\\IPaymentService.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\IPaymentService.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Service\\IPaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T06:36:39.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\IOrderService.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Service\\IOrderService.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\IOrderService.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Service\\IOrderService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T06:35:59.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IOrderItemService.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\IOrderItemService.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Service\\IOrderItemService.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\IOrderItemService.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Service\\IOrderItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T06:35:46.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Service\\ICategoryService.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\ICategoryService.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Service\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T06:35:32.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\ICartService.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Service\\ICartService.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\ICartService.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Service\\ICartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T06:35:10.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ICartItemService.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\ICartItemService.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Service\\ICartItemService.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\ICartItemService.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Service\\ICartItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T06:34:54.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\IBookService.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Service\\IBookService.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\IBookService.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Service\\IBookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T06:34:19.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IAccountService .cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\IAccountService .cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Service\\IAccountService .cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\IAccountService .cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Service\\IAccountService .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T05:00:25.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IAccountRepository.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IAccountRepository.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Repository\\IAccountRepository.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IAccountRepository.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Repository\\IAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T04:47:07.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IPublisherRepository.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IPublisherRepository.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Repository\\IPublisherRepository.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IPublisherRepository.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Repository\\IPublisherRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T04:58:09.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IPaymentRepository.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IPaymentRepository.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Repository\\IPaymentRepository.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IPaymentRepository.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Repository\\IPaymentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T04:58:06.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IOrderItemRepository.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IOrderItemRepository.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Repository\\IOrderItemRepository.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IOrderItemRepository.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Repository\\IOrderItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T04:57:57.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ICartItemRepository.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\ICartItemRepository.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Repository\\ICartItemRepository.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\ICartItemRepository.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Repository\\ICartItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T04:57:21.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Repository\\IBookRepository.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IBookRepository.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Repository\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T04:56:53.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CachingMiddleware.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Middleware\\CachingMiddleware.cs",
+              "RelativeDocumentMoniker": "BookStore.API\\Middleware\\CachingMiddleware.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Middleware\\CachingMiddleware.cs",
+              "RelativeToolTip": "BookStore.API\\Middleware\\CachingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T04:32:43.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "StatisticsService.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\StatisticsService.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Service\\StatisticsService.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\StatisticsService.cs",
+              "RelativeToolTip": "BookStore.Application\\Service\\StatisticsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T07:03:30.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "BookStore.API\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "BookStore.API\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T04:33:39.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "BookController.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "BookStore.API\\Controllers\\BookController.cs",
@@ -507,44 +748,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CachingMiddleware.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Middleware\\CachingMiddleware.cs",
-              "RelativeDocumentMoniker": "BookStore.API\\Middleware\\CachingMiddleware.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Middleware\\CachingMiddleware.cs",
-              "RelativeToolTip": "BookStore.API\\Middleware\\CachingMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABIAAAAAAAAAA==",
+              "DocumentIndex": 25,
+              "Title": "PublisherController.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Controllers\\PublisherController.cs",
+              "RelativeDocumentMoniker": "BookStore.API\\Controllers\\PublisherController.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Controllers\\PublisherController.cs",
+              "RelativeToolTip": "BookStore.API\\Controllers\\PublisherController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:32:43.305Z",
+              "WhenOpened": "2025-04-14T04:33:58.552Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "BookStore.API\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "BookStore.API\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:33:39.232Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StatisticsService.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\StatisticsService.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Service\\StatisticsService.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\StatisticsService.cs",
-              "RelativeToolTip": "BookStore.Application\\Service\\StatisticsService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:03:30.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 24,
               "Title": "BookStore.API.http",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\BookStore.API.http",
               "RelativeDocumentMoniker": "BookStore.API\\BookStore.API.http",
@@ -556,7 +773,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 28,
               "Title": "RatingService.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\RatingService.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Service\\RatingService.cs",
@@ -564,11 +781,12 @@
               "RelativeToolTip": "BookStore.Application\\Service\\RatingService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:03:16.608Z"
+              "WhenOpened": "2025-04-14T07:03:16.608Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 29,
               "Title": "OrderService.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\OrderService.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Service\\OrderService.cs",
@@ -576,23 +794,12 @@
               "RelativeToolTip": "BookStore.Application\\Service\\OrderService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:03:06.263Z"
+              "WhenOpened": "2025-04-14T07:03:06.263Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AccountService .cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\AccountService .cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Service\\AccountService .cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\AccountService .cs",
-              "RelativeToolTip": "BookStore.Application\\Service\\AccountService .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T06:45:21.187Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 30,
               "Title": "BookStoreContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Infrastructure\\Migrations\\BookStoreContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "BookStore.Infrastructure\\Migrations\\BookStoreContextModelSnapshot.cs",
@@ -604,7 +811,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 31,
               "Title": "20250408083231_initialmiration.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Infrastructure\\Migrations\\20250408083231_initialmiration.cs",
               "RelativeDocumentMoniker": "BookStore.Infrastructure\\Migrations\\20250408083231_initialmiration.cs",
@@ -616,7 +823,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 32,
               "Title": "BookStoreContext.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Infrastructure\\Data\\BookStoreContext.cs",
               "RelativeDocumentMoniker": "BookStore.Infrastructure\\Data\\BookStoreContext.cs",
@@ -624,11 +831,12 @@
               "RelativeToolTip": "BookStore.Infrastructure\\Data\\BookStoreContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:51:20.926Z"
+              "WhenOpened": "2025-04-14T04:51:20.926Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 33,
               "Title": "StatisticsRepository.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Infrastructure\\Repository\\StatisticsRepository.cs",
               "RelativeDocumentMoniker": "BookStore.Infrastructure\\Repository\\StatisticsRepository.cs",
@@ -636,11 +844,12 @@
               "RelativeToolTip": "BookStore.Infrastructure\\Repository\\StatisticsRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:22:39.276Z"
+              "WhenOpened": "2025-04-14T07:22:39.276Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 34,
               "Title": "ShippingAddressRepository.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Infrastructure\\Repository\\ShippingAddressRepository.cs",
               "RelativeDocumentMoniker": "BookStore.Infrastructure\\Repository\\ShippingAddressRepository.cs",
@@ -648,11 +857,12 @@
               "RelativeToolTip": "BookStore.Infrastructure\\Repository\\ShippingAddressRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:22:38.503Z"
+              "WhenOpened": "2025-04-14T07:22:38.503Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 35,
               "Title": "RatingRepository.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Infrastructure\\Repository\\RatingRepository.cs",
               "RelativeDocumentMoniker": "BookStore.Infrastructure\\Repository\\RatingRepository.cs",
@@ -660,11 +870,12 @@
               "RelativeToolTip": "BookStore.Infrastructure\\Repository\\RatingRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:22:37.327Z"
+              "WhenOpened": "2025-04-14T07:22:37.327Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 36,
               "Title": "PaymentRepository.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Infrastructure\\Repository\\PaymentRepository.cs",
               "RelativeDocumentMoniker": "BookStore.Infrastructure\\Repository\\PaymentRepository.cs",
@@ -672,11 +883,12 @@
               "RelativeToolTip": "BookStore.Infrastructure\\Repository\\PaymentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:22:36.584Z"
+              "WhenOpened": "2025-04-14T07:22:36.584Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 37,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Infrastructure\\Repository\\OrderRepository.cs",
               "RelativeDocumentMoniker": "BookStore.Infrastructure\\Repository\\OrderRepository.cs",
@@ -684,11 +896,12 @@
               "RelativeToolTip": "BookStore.Infrastructure\\Repository\\OrderRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:22:20.728Z"
+              "WhenOpened": "2025-04-14T07:22:20.728Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 38,
               "Title": "OrderItemRepository.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Infrastructure\\Repository\\OrderItemRepository.cs",
               "RelativeDocumentMoniker": "BookStore.Infrastructure\\Repository\\OrderItemRepository.cs",
@@ -696,11 +909,12 @@
               "RelativeToolTip": "BookStore.Infrastructure\\Repository\\OrderItemRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:22:00.06Z"
+              "WhenOpened": "2025-04-14T07:22:00.06Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 39,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Infrastructure\\Repository\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "BookStore.Infrastructure\\Repository\\CategoryRepository.cs",
@@ -708,11 +922,12 @@
               "RelativeToolTip": "BookStore.Infrastructure\\Repository\\CategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:21:58.952Z"
+              "WhenOpened": "2025-04-14T07:21:58.952Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 40,
               "Title": "CartItemRepository.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Infrastructure\\Repository\\CartItemRepository.cs",
               "RelativeDocumentMoniker": "BookStore.Infrastructure\\Repository\\CartItemRepository.cs",
@@ -720,11 +935,12 @@
               "RelativeToolTip": "BookStore.Infrastructure\\Repository\\CartItemRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:21:45.886Z"
+              "WhenOpened": "2025-04-14T07:21:45.886Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 41,
               "Title": "BookRepository.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Infrastructure\\Repository\\BookRepository.cs",
               "RelativeDocumentMoniker": "BookStore.Infrastructure\\Repository\\BookRepository.cs",
@@ -732,11 +948,12 @@
               "RelativeToolTip": "BookStore.Infrastructure\\Repository\\BookRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:20:17.534Z"
+              "WhenOpened": "2025-04-14T07:20:17.534Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 42,
               "Title": "BaseRepository.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Infrastructure\\Repository\\BaseRepository.cs",
               "RelativeDocumentMoniker": "BookStore.Infrastructure\\Repository\\BaseRepository.cs",
@@ -744,11 +961,12 @@
               "RelativeToolTip": "BookStore.Infrastructure\\Repository\\BaseRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:19:43.379Z"
+              "WhenOpened": "2025-04-14T07:19:43.379Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 43,
               "Title": "AccountRepository.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Infrastructure\\Repository\\AccountRepository.cs",
               "RelativeDocumentMoniker": "BookStore.Infrastructure\\Repository\\AccountRepository.cs",
@@ -756,11 +974,12 @@
               "RelativeToolTip": "BookStore.Infrastructure\\Repository\\AccountRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:18:42.643Z"
+              "WhenOpened": "2025-04-14T07:18:42.643Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 45,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\appsettings.json",
               "RelativeDocumentMoniker": "BookStore.API\\appsettings.json",
@@ -772,7 +991,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 47,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\UserService.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Service\\UserService.cs",
@@ -780,11 +999,12 @@
               "RelativeToolTip": "BookStore.Application\\Service\\UserService.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:03:32.618Z"
+              "WhenOpened": "2025-04-14T07:03:32.618Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 51,
               "Title": "PaymentService.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\PaymentService.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Service\\PaymentService.cs",
@@ -792,11 +1012,12 @@
               "RelativeToolTip": "BookStore.Application\\Service\\PaymentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:03:08.406Z"
+              "WhenOpened": "2025-04-14T07:03:08.406Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 46,
               "Title": "CacheAttribute.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Attributes\\CacheAttribute.cs",
               "RelativeDocumentMoniker": "BookStore.API\\Attributes\\CacheAttribute.cs",
@@ -808,31 +1029,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 44,
               "Title": "IPublisherService.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\IPublisherService.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Service\\Interface\\IPublisherService.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\IPublisherService.cs",
-              "RelativeToolTip": "BookStore.Application\\Service\\Interface\\IPublisherService.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\IPublisherService.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Service\\IPublisherService.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\IPublisherService.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Service\\IPublisherService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T06:37:35.01Z"
+              "WhenOpened": "2025-04-14T06:37:35.01Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IAccountRepository.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IAccountRepository.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Repository\\Interface\\IAccountRepository.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IAccountRepository.cs",
-              "RelativeToolTip": "BookStore.Application\\Repository\\Interface\\IAccountRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:47:07.574Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 50,
               "Title": "PublisherService.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\PublisherService.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Service\\PublisherService.cs",
@@ -840,11 +1050,12 @@
               "RelativeToolTip": "BookStore.Application\\Service\\PublisherService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:03:10.503Z"
+              "WhenOpened": "2025-04-14T07:03:10.503Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 49,
               "Title": "ShipmentService.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\ShipmentService.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Service\\ShipmentService.cs",
@@ -852,11 +1063,12 @@
               "RelativeToolTip": "BookStore.Application\\Service\\ShipmentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:03:22.793Z"
+              "WhenOpened": "2025-04-14T07:03:22.793Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 48,
               "Title": "ShippingAddressService.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\ShippingAddressService.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Service\\ShippingAddressService.cs",
@@ -864,11 +1076,12 @@
               "RelativeToolTip": "BookStore.Application\\Service\\ShippingAddressService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:03:28.202Z"
+              "WhenOpened": "2025-04-14T07:03:28.202Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 52,
               "Title": "OrderItemService.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\OrderItemService.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Service\\OrderItemService.cs",
@@ -876,11 +1089,12 @@
               "RelativeToolTip": "BookStore.Application\\Service\\OrderItemService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:02:49.944Z"
+              "WhenOpened": "2025-04-14T07:02:49.944Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 53,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\CategoryService.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Service\\CategoryService.cs",
@@ -888,11 +1102,12 @@
               "RelativeToolTip": "BookStore.Application\\Service\\CategoryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:02:48.055Z"
+              "WhenOpened": "2025-04-14T07:02:48.055Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 54,
               "Title": "CartService.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\CartService.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Service\\CartService.cs",
@@ -900,11 +1115,12 @@
               "RelativeToolTip": "BookStore.Application\\Service\\CartService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:02:20.063Z"
+              "WhenOpened": "2025-04-14T07:02:20.063Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 55,
               "Title": "CartItemService .cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\CartItemService .cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Service\\CartItemService .cs",
@@ -912,11 +1128,12 @@
               "RelativeToolTip": "BookStore.Application\\Service\\CartItemService .cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:02:17.22Z"
+              "WhenOpened": "2025-04-14T07:02:17.22Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 56,
               "Title": "BookService.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\BookService.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Service\\BookService.cs",
@@ -924,11 +1141,12 @@
               "RelativeToolTip": "BookStore.Application\\Service\\BookService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T07:01:43.105Z"
+              "WhenOpened": "2025-04-14T07:01:43.105Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 57,
               "Title": "IJwtHelper.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Helpers\\IJwtHelper.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Helpers\\IJwtHelper.cs",
@@ -936,23 +1154,12 @@
               "RelativeToolTip": "BookStore.Application\\Helpers\\IJwtHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T06:59:15.999Z"
+              "WhenOpened": "2025-04-14T06:59:15.999Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "IOrderService.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\IOrderService.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Service\\Interface\\IOrderService.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\IOrderService.cs",
-              "RelativeToolTip": "BookStore.Application\\Service\\Interface\\IOrderService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAIAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T06:35:59.438Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 59,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "BookStore.API\\Controllers\\AccountController.cs",
@@ -960,11 +1167,12 @@
               "RelativeToolTip": "BookStore.API\\Controllers\\AccountController.cs",
               "ViewState": "AgIAAKUAAAAAAAAAAAAuwLcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:33:15.856Z"
+              "WhenOpened": "2025-04-14T04:33:15.856Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 58,
               "Title": "JwtHelper.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Helpers\\JwtHelper.cs",
               "RelativeDocumentMoniker": "BookStore.API\\Helpers\\JwtHelper.cs",
@@ -972,59 +1180,12 @@
               "RelativeToolTip": "BookStore.API\\Helpers\\JwtHelper.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwAcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:30:25.307Z"
+              "WhenOpened": "2025-04-14T04:30:25.307Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "ICartService.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\ICartService.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Service\\Interface\\ICartService.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\ICartService.cs",
-              "RelativeToolTip": "BookStore.Application\\Service\\Interface\\ICartService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T06:35:10.175Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "IBookService.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\IBookService.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Service\\Interface\\IBookService.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\IBookService.cs",
-              "RelativeToolTip": "BookStore.Application\\Service\\Interface\\IBookService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T06:34:19.397Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "IAccountService .cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\IAccountService .cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Service\\Interface\\IAccountService .cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\IAccountService .cs",
-              "RelativeToolTip": "BookStore.Application\\Service\\Interface\\IAccountService .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T05:00:25.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "CartDto.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Dtos\\CartDto.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Dtos\\CartDto.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Dtos\\CartDto.cs",
-              "RelativeToolTip": "BookStore.Application\\Dtos\\CartDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:42:15.038Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 60,
               "Title": "BookDto.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Dtos\\BookDto.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Dtos\\BookDto.cs",
@@ -1032,11 +1193,12 @@
               "RelativeToolTip": "BookStore.Application\\Dtos\\BookDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:42:08.808Z"
+              "WhenOpened": "2025-04-14T04:42:08.808Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 61,
               "Title": "OrderController.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "BookStore.API\\Controllers\\OrderController.cs",
@@ -1044,11 +1206,12 @@
               "RelativeToolTip": "BookStore.API\\Controllers\\OrderController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:33:48.917Z"
+              "WhenOpened": "2025-04-14T04:33:48.917Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 62,
               "Title": "CartItemController.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Controllers\\CartItemController.cs",
               "RelativeDocumentMoniker": "BookStore.API\\Controllers\\CartItemController.cs",
@@ -1056,11 +1219,12 @@
               "RelativeToolTip": "BookStore.API\\Controllers\\CartItemController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:33:34.848Z"
+              "WhenOpened": "2025-04-14T04:33:34.848Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 63,
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "BookStore.API\\Controllers\\CartController.cs",
@@ -1068,119 +1232,64 @@
               "RelativeToolTip": "BookStore.API\\Controllers\\CartController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:33:29.171Z"
+              "WhenOpened": "2025-04-14T04:33:29.171Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 64,
               "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\IUserService.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Service\\Interface\\IUserService.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\IUserService.cs",
-              "RelativeToolTip": "BookStore.Application\\Service\\Interface\\IUserService.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\IUserService.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Service\\IUserService.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\IUserService.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Service\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T06:39:18.98Z"
+              "WhenOpened": "2025-04-14T06:39:18.98Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 65,
               "Title": "IStatisticsService.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\IStatisticsService.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Service\\Interface\\IStatisticsService.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\IStatisticsService.cs",
-              "RelativeToolTip": "BookStore.Application\\Service\\Interface\\IStatisticsService.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\IStatisticsService.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Service\\IStatisticsService.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\IStatisticsService.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Service\\IStatisticsService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T06:39:07.479Z"
+              "WhenOpened": "2025-04-14T06:39:07.479Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 66,
               "Title": "IShippingAddressService.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\IShippingAddressService.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Service\\Interface\\IShippingAddressService.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\IShippingAddressService.cs",
-              "RelativeToolTip": "BookStore.Application\\Service\\Interface\\IShippingAddressService.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\IShippingAddressService.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Service\\IShippingAddressService.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\IShippingAddressService.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Service\\IShippingAddressService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T06:38:34.589Z"
+              "WhenOpened": "2025-04-14T06:38:34.589Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "IShipmentService.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\IShipmentService.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Service\\Interface\\IShipmentService.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\IShipmentService.cs",
-              "RelativeToolTip": "BookStore.Application\\Service\\Interface\\IShipmentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T06:38:12.349Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "IPaymentService.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\IPaymentService.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Service\\Interface\\IPaymentService.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\IPaymentService.cs",
-              "RelativeToolTip": "BookStore.Application\\Service\\Interface\\IPaymentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T06:36:39.038Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 67,
               "Title": "IRatingService.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\IRatingService.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Service\\Interface\\IRatingService.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\IRatingService.cs",
-              "RelativeToolTip": "BookStore.Application\\Service\\Interface\\IRatingService.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\IRatingService.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Service\\IRatingService.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Service\\IRatingService.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Service\\IRatingService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T06:37:48.018Z"
+              "WhenOpened": "2025-04-14T06:37:48.018Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "IOrderItemService.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\IOrderItemService.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Service\\Interface\\IOrderItemService.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\IOrderItemService.cs",
-              "RelativeToolTip": "BookStore.Application\\Service\\Interface\\IOrderItemService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T06:35:46.175Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "ICategoryService.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\ICategoryService.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Service\\Interface\\ICategoryService.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\ICategoryService.cs",
-              "RelativeToolTip": "BookStore.Application\\Service\\Interface\\ICategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T06:35:32.124Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "ICartItemService.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\ICartItemService.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Service\\Interface\\ICartItemService.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Service\\Interface\\ICartItemService.cs",
-              "RelativeToolTip": "BookStore.Application\\Service\\Interface\\ICartItemService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T06:34:54.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 70,
               "Title": "ShippingAddressController.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Controllers\\ShippingAddressController.cs",
               "RelativeDocumentMoniker": "BookStore.API\\Controllers\\ShippingAddressController.cs",
@@ -1188,11 +1297,12 @@
               "RelativeToolTip": "BookStore.API\\Controllers\\ShippingAddressController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:34:13.337Z"
+              "WhenOpened": "2025-04-14T04:34:13.337Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 68,
               "Title": "StatisticsController.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Controllers\\StatisticsController.cs",
               "RelativeDocumentMoniker": "BookStore.API\\Controllers\\StatisticsController.cs",
@@ -1200,11 +1310,12 @@
               "RelativeToolTip": "BookStore.API\\Controllers\\StatisticsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:34:19.014Z"
+              "WhenOpened": "2025-04-14T04:34:19.014Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 69,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "BookStore.API\\Controllers\\UserController.cs",
@@ -1212,11 +1323,12 @@
               "RelativeToolTip": "BookStore.API\\Controllers\\UserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:34:24.753Z"
+              "WhenOpened": "2025-04-14T04:34:24.753Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 71,
               "Title": "ShipmentController.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Controllers\\ShipmentController.cs",
               "RelativeDocumentMoniker": "BookStore.API\\Controllers\\ShipmentController.cs",
@@ -1224,11 +1336,12 @@
               "RelativeToolTip": "BookStore.API\\Controllers\\ShipmentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:34:07.623Z"
+              "WhenOpened": "2025-04-14T04:34:07.623Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 72,
               "Title": "RatingController.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Controllers\\RatingController.cs",
               "RelativeDocumentMoniker": "BookStore.API\\Controllers\\RatingController.cs",
@@ -1236,11 +1349,12 @@
               "RelativeToolTip": "BookStore.API\\Controllers\\RatingController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:34:03.229Z"
+              "WhenOpened": "2025-04-14T04:34:03.229Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 73,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "BookStore.API\\Controllers\\PaymentController.cs",
@@ -1248,11 +1362,12 @@
               "RelativeToolTip": "BookStore.API\\Controllers\\PaymentController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:33:53.726Z"
+              "WhenOpened": "2025-04-14T04:33:53.726Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 74,
               "Title": "ImageUploadController .cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\Controllers\\ImageUploadController .cs",
               "RelativeDocumentMoniker": "BookStore.API\\Controllers\\ImageUploadController .cs",
@@ -1264,171 +1379,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 75,
               "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Repository\\Interface\\IUserRepository.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IUserRepository.cs",
-              "RelativeToolTip": "BookStore.Application\\Repository\\Interface\\IUserRepository.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Repository\\IUserRepository.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IUserRepository.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Repository\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T05:00:12.877Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "IStatisticsRepository.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IStatisticsRepository.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Repository\\Interface\\IStatisticsRepository.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IStatisticsRepository.cs",
-              "RelativeToolTip": "BookStore.Application\\Repository\\Interface\\IStatisticsRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:59:19.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
-              "Title": "IShippingAddressRepository.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IShippingAddressRepository.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Repository\\Interface\\IShippingAddressRepository.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IShippingAddressRepository.cs",
-              "RelativeToolTip": "BookStore.Application\\Repository\\Interface\\IShippingAddressRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:59:02.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
-              "Title": "IShipmentRepository.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IShipmentRepository.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Repository\\Interface\\IShipmentRepository.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IShipmentRepository.cs",
-              "RelativeToolTip": "BookStore.Application\\Repository\\Interface\\IShipmentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:58:43.776Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "IRatingRepository.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IRatingRepository.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Repository\\Interface\\IRatingRepository.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IRatingRepository.cs",
-              "RelativeToolTip": "BookStore.Application\\Repository\\Interface\\IRatingRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:58:12.74Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 74,
-              "Title": "IOrderRepository.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IOrderRepository.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Repository\\Interface\\IOrderRepository.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IOrderRepository.cs",
-              "RelativeToolTip": "BookStore.Application\\Repository\\Interface\\IOrderRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:58:01.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 71,
-              "Title": "ICartItemRepository.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\ICartItemRepository.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Repository\\Interface\\ICartItemRepository.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\ICartItemRepository.cs",
-              "RelativeToolTip": "BookStore.Application\\Repository\\Interface\\ICartItemRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:57:21.237Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 70,
-              "Title": "IBookRepository.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IBookRepository.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Repository\\Interface\\IBookRepository.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IBookRepository.cs",
-              "RelativeToolTip": "BookStore.Application\\Repository\\Interface\\IBookRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:56:53.346Z"
+              "WhenOpened": "2025-04-14T05:00:12.877Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 76,
-              "Title": "IPaymentRepository.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IPaymentRepository.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Repository\\Interface\\IPaymentRepository.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IPaymentRepository.cs",
-              "RelativeToolTip": "BookStore.Application\\Repository\\Interface\\IPaymentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
+              "Title": "IStatisticsRepository.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IStatisticsRepository.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Repository\\IStatisticsRepository.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IStatisticsRepository.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Repository\\IStatisticsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:58:06.456Z"
+              "WhenOpened": "2025-04-14T04:59:19.458Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 77,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IRepository.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Repository\\Interface\\IRepository.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IRepository.cs",
-              "RelativeToolTip": "BookStore.Application\\Repository\\Interface\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:58:17.39Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 75,
-              "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\ICategoryRepository.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Repository\\Interface\\ICategoryRepository.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\ICategoryRepository.cs",
-              "RelativeToolTip": "BookStore.Application\\Repository\\Interface\\ICategoryRepository.cs",
+              "Title": "IShippingAddressRepository.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IShippingAddressRepository.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Repository\\IShippingAddressRepository.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IShippingAddressRepository.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Repository\\IShippingAddressRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:57:53.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 73,
-              "Title": "ICartRepository.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\ICartRepository.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Repository\\Interface\\ICartRepository.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\ICartRepository.cs",
-              "RelativeToolTip": "BookStore.Application\\Repository\\Interface\\ICartRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:57:48.625Z"
+              "WhenOpened": "2025-04-14T04:59:02.488Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 78,
-              "Title": "IPublisherRepository.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IPublisherRepository.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Repository\\Interface\\IPublisherRepository.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IPublisherRepository.cs",
-              "RelativeToolTip": "BookStore.Application\\Repository\\Interface\\IPublisherRepository.cs",
+              "Title": "IShipmentRepository.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IShipmentRepository.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Repository\\IShipmentRepository.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IShipmentRepository.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Repository\\IShipmentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:58:09.46Z"
+              "WhenOpened": "2025-04-14T04:58:43.776Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 79,
-              "Title": "IOrderItemRepository.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IOrderItemRepository.cs",
-              "RelativeDocumentMoniker": "BookStore.Application\\Repository\\Interface\\IOrderItemRepository.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Repository\\Interface\\IOrderItemRepository.cs",
-              "RelativeToolTip": "BookStore.Application\\Repository\\Interface\\IOrderItemRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "BookStore.Application\\Interface\\Repository\\IRepository.cs",
+              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Interface\\Repository\\IRepository.cs",
+              "RelativeToolTip": "BookStore.Application\\Interface\\Repository\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:57:57.602Z"
+              "WhenOpened": "2025-04-14T04:58:17.39Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1464,7 +1476,8 @@
               "RelativeToolTip": "BookStore.Application\\Mapping\\MappingProfile.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:45:00.686Z"
+              "WhenOpened": "2025-04-14T04:45:00.686Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -1480,42 +1493,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
-              "Title": "RefreshToken.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\RefreshToken.cs",
-              "RelativeDocumentMoniker": "BookStore.Domain\\Entities\\RefreshToken.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\RefreshToken.cs",
-              "RelativeToolTip": "BookStore.Domain\\Entities\\RefreshToken.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:50:37.9Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 86,
-              "Title": "PaginatedList.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\PaginatedList.cs",
-              "RelativeDocumentMoniker": "BookStore.Domain\\Entities\\PaginatedList.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\PaginatedList.cs",
-              "RelativeToolTip": "BookStore.Domain\\Entities\\PaginatedList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:50:14.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 87,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\Order.cs",
-              "RelativeDocumentMoniker": "BookStore.Domain\\Entities\\Order.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\Order.cs",
-              "RelativeToolTip": "BookStore.Domain\\Entities\\Order.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAADgvxQAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:50:00.401Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 83,
               "Title": "ShipmentDto.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Dtos\\ShipmentDto.cs",
@@ -1528,151 +1505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "BookStore.Domain\\Entities\\User.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "BookStore.Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAA3wAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:51:02.007Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 89,
-              "Title": "ShippingAddress.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\ShippingAddress.cs",
-              "RelativeDocumentMoniker": "BookStore.Domain\\Entities\\ShippingAddress.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\ShippingAddress.cs",
-              "RelativeToolTip": "BookStore.Domain\\Entities\\ShippingAddress.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:50:51.098Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 90,
-              "Title": "Shipment.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\Shipment.cs",
-              "RelativeDocumentMoniker": "BookStore.Domain\\Entities\\Shipment.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\Shipment.cs",
-              "RelativeToolTip": "BookStore.Domain\\Entities\\Shipment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:50:44.304Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 91,
-              "Title": "Rating.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\Rating.cs",
-              "RelativeDocumentMoniker": "BookStore.Domain\\Entities\\Rating.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\Rating.cs",
-              "RelativeToolTip": "BookStore.Domain\\Entities\\Rating.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:50:33.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 92,
-              "Title": "Publisher.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\Publisher.cs",
-              "RelativeDocumentMoniker": "BookStore.Domain\\Entities\\Publisher.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\Publisher.cs",
-              "RelativeToolTip": "BookStore.Domain\\Entities\\Publisher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:50:27.851Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 93,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\Payment.cs",
-              "RelativeDocumentMoniker": "BookStore.Domain\\Entities\\Payment.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\Payment.cs",
-              "RelativeToolTip": "BookStore.Domain\\Entities\\Payment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:50:24.056Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 94,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\OrderItem.cs",
-              "RelativeDocumentMoniker": "BookStore.Domain\\Entities\\OrderItem.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\OrderItem.cs",
-              "RelativeToolTip": "BookStore.Domain\\Entities\\OrderItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:50:03.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 95,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "BookStore.Domain\\Entities\\Category.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\Category.cs",
-              "RelativeToolTip": "BookStore.Domain\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:49:46.11Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 96,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\CartItem.cs",
-              "RelativeDocumentMoniker": "BookStore.Domain\\Entities\\CartItem.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\CartItem.cs",
-              "RelativeToolTip": "BookStore.Domain\\Entities\\CartItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:49:41.819Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 97,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\Cart.cs",
-              "RelativeDocumentMoniker": "BookStore.Domain\\Entities\\Cart.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\Cart.cs",
-              "RelativeToolTip": "BookStore.Domain\\Entities\\Cart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:47:28.756Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 98,
-              "Title": "Book.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\Book.cs",
-              "RelativeDocumentMoniker": "BookStore.Domain\\Entities\\Book.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\Book.cs",
-              "RelativeToolTip": "BookStore.Domain\\Entities\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:47:22.319Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 99,
-              "Title": "Account.cs",
-              "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\Account.cs",
-              "RelativeDocumentMoniker": "BookStore.Domain\\Entities\\Account.cs",
-              "ToolTip": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\Entities\\Account.cs",
-              "RelativeToolTip": "BookStore.Domain\\Entities\\Account.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-14T04:45:43.954Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 85,
               "Title": "UserDto.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Dtos\\UserDto.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Dtos\\UserDto.cs",
@@ -1684,7 +1517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 86,
               "Title": "StatisticsDto.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Dtos\\StatisticsDto.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Dtos\\StatisticsDto.cs",
@@ -1696,7 +1529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 87,
               "Title": "ShippingAddressDto.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Dtos\\ShippingAddressDto.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Dtos\\ShippingAddressDto.cs",
@@ -1708,7 +1541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 88,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Dtos\\RegisterDto.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Dtos\\RegisterDto.cs",
@@ -1720,7 +1553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 89,
               "Title": "RatingDto.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Dtos\\RatingDto.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Dtos\\RatingDto.cs",
@@ -1732,7 +1565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 90,
               "Title": "PaymentDto.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Dtos\\PaymentDto.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Dtos\\PaymentDto.cs",
@@ -1744,7 +1577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 91,
               "Title": "OrderItemDto.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Dtos\\OrderItemDto.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Dtos\\OrderItemDto.cs",
@@ -1756,7 +1589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 92,
               "Title": "OrderDto.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Dtos\\OrderDto.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Dtos\\OrderDto.cs",
@@ -1768,7 +1601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 93,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Dtos\\LoginDto.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Dtos\\LoginDto.cs",
@@ -1780,7 +1613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 94,
               "Title": "CreateOrderDto.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Dtos\\CreateOrderDto.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Dtos\\CreateOrderDto.cs",
@@ -1792,7 +1625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 95,
               "Title": "ChangePasswordDto.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Dtos\\ChangePasswordDto.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Dtos\\ChangePasswordDto.cs",
@@ -1804,7 +1637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 96,
               "Title": "CategoryDto.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Dtos\\CategoryDto.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Dtos\\CategoryDto.cs",
@@ -1816,7 +1649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 97,
               "Title": "CartItemDto.cs",
               "DocumentMoniker": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Application\\Dtos\\CartItemDto.cs",
               "RelativeDocumentMoniker": "BookStore.Application\\Dtos\\CartItemDto.cs",

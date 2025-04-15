@@ -1,6 +1,6 @@
-﻿using BookStore.Application.Service.Interface;
-using BookStore.Application.Dtos;
-using BookStore.Application.Repository.Interface;
+﻿using BookStore.Application.Dtos;
+using BookStore.Application.Interface.Repository;
+using BookStore.Application.Interface.Service;
 
 namespace BookStore.Application.Service
 {

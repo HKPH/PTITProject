@@ -2,9 +2,9 @@
 using System.Threading.Tasks;
 using AutoMapper;
 using BookStore.Application.Dtos;
-using BookStore.Domain.Entities;
-using BookStore.Application.Repository.Interface;
-using BookStore.Application.Service.Interface;
+using BookStore.Application.Entities;
+using BookStore.Application.Interface.Repository;
+using BookStore.Application.Interface.Service;
 
 
 namespace BookStore.Application.Service

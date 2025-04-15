@@ -10,7 +10,6 @@
         "dependencies": {
           "AutoMapper": "12.0.1",
           "BCrypt.Net-Next": "4.0.3",
-          "BookStore.Domain": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.0"
         },
         "runtime": {
@@ -124,14 +123,6 @@
             "fileVersion": "7.0.3.41017"
           }
         }
-      },
-      "BookStore.Domain/1.0.0": {
-        "runtime": {
-          "BookStore.Domain.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
       }
     }
   },
@@ -217,11 +208,6 @@
       "sha512": "sha512-caEe+OpQNYNiyZb+DJpUVROXoVySWBahko2ooNfUcllxa9ZQUM8CgM/mDjP6AoFn6cQU9xMmG+jivXWub8cbGg==",
       "path": "system.identitymodel.tokens.jwt/7.0.3",
       "hashPath": "system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512"
-    },
-    "BookStore.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

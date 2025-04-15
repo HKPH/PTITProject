@@ -170,16 +170,6 @@
             "related": ".xml"
           }
         }
-      },
-      "BookStore.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/BookStore.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BookStore.Domain.dll": {}
-        }
       }
     }
   },
@@ -474,18 +464,12 @@
         "system.identitymodel.tokens.jwt.7.0.3.nupkg.sha512",
         "system.identitymodel.tokens.jwt.nuspec"
       ]
-    },
-    "BookStore.Domain/1.0.0": {
-      "type": "project",
-      "path": "../BookStore.Domain/BookStore.Domain.csproj",
-      "msbuildProject": "../BookStore.Domain/BookStore.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "AutoMapper >= 12.0.1",
       "BCrypt.Net-Next >= 4.0.3",
-      "BookStore.Domain >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.0"
     ]
   },
@@ -520,11 +504,7 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {
-            "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\BookStore.Domain.csproj": {
-              "projectPath": "D:\\Project\\ASP.NET\\BookStore\\BookStore.Domain\\BookStore.Domain.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

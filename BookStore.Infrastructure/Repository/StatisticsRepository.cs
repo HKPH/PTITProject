@@ -1,7 +1,7 @@
 ﻿using BookStore.Infrastructure.Data;
-using BookStore.Application.Repository.Interface;
 using Microsoft.EntityFrameworkCore;
 using BookStore.Application.Dtos;
+using BookStore.Application.Interface.Repository;
 
 namespace BookStore.Infrastructure.Repository
 {

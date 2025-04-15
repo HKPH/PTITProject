@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using BookStore.Application.Dtos;
-using BookStore.Application.Service.Interface;
 using Microsoft.AspNetCore.Authorization;
+using BookStore.Application.Interface.Service;
 
 namespace BookStore.Api.Controllers
 {

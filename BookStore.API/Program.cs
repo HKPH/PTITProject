@@ -5,12 +5,12 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
 using BookStore.Application.Helpers;
-using BookStore.Application.Service.Interface;
 using BookStore.Application.Service;
 using BookStore.Api.Middleware;
 using BookStore.Api.Helpers;
-using BookStore.Application.Repository.Interface;
 using BookStore.Infrastructure.Repository;
+using BookStore.Application.Interface.Repository;
+using BookStore.Application.Interface.Service;
 
 
 var builder = WebApplication.CreateBuilder(args);

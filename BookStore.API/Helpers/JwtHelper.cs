@@ -1,5 +1,5 @@
 ﻿using BookStore.Application.Helpers;
-using BookStore.Domain.Entities;
+using BookStore.Application.Entities;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.IdentityModel.Tokens;
 using System;

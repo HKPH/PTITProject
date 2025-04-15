@@ -1270,7 +1270,6 @@
         "dependencies": {
           "AutoMapper": "12.0.1",
           "BCrypt.Net-Next": "4.0.3",
-          "BookStore.Domain": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.0"
         },
         "compile": {
@@ -1280,22 +1279,11 @@
           "bin/placeholder/BookStore.Application.dll": {}
         }
       },
-      "BookStore.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/BookStore.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BookStore.Domain.dll": {}
-        }
-      },
       "BookStore.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
           "BookStore.Application": "1.0.0",
-          "BookStore.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0"
         },
@@ -3428,11 +3416,6 @@
       "type": "project",
       "path": "../BookStore.Application/BookStore.Application.csproj",
       "msbuildProject": "../BookStore.Application/BookStore.Application.csproj"
-    },
-    "BookStore.Domain/1.0.0": {
-      "type": "project",
-      "path": "../BookStore.Domain/BookStore.Domain.csproj",
-      "msbuildProject": "../BookStore.Domain/BookStore.Domain.csproj"
     },
     "BookStore.Infrastructure/1.0.0": {
       "type": "project",
