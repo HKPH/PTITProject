@@ -23,14 +23,30 @@ namespace BookStore.Infrastructure.Repository
 
         public async Task<TEntity> GetByIdAsync(int id)
         {
-            return await _dbSet.FindAsync(id);
+            try
+            {
+                var entity = await _dbSet.FindAsync(id);
+                return entity;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }   
         }
 
         public async Task<TEntity> CreateAsync(TEntity entity)
         {
-            await _dbSet.AddAsync(entity);
-            await _baseContext.SaveChangesAsync();
-            return entity;
+            try
+            {
+                await _dbSet.AddAsync(entity);
+                await _baseContext.SaveChangesAsync();
+                return entity;
+            }
+            catch (Exception ex)
+            {
+
+                return null;
+            }
         }
 
         public async Task<bool> UpdateAsync(TEntity updatedEntity, int id)

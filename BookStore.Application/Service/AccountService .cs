@@ -57,7 +57,7 @@ namespace BookStore.Application.Service
                 Username = account.Username,
                 Password = hashedPassword,
                 CreateDate = DateTime.Now,
-                UserId = newUser.Id,
+                UserId = createdUser.Id,
                 Role = 1,
                 Active = true
             };
@@ -74,9 +74,9 @@ namespace BookStore.Application.Service
 
             var newShippingAddress = new ShippingAddress
             {
-                Address = newUser.Address,
+                Address = createdUser.Address,
                 Note = "",
-                CustomerNumber = newUser.Phone,
+                CustomerNumber = createdUser.Phone,
                 UserId = createdUser.Id
             };
             var createdShippingAddress = await _shippingAddressRepository.CreateAsync(newShippingAddress);
@@ -97,7 +97,7 @@ namespace BookStore.Application.Service
             var accountExit = await _accountRepository.GetByIdAsync(id);
             if (accountExit == null)
             {
-                throw new Exception("Account not exit");
+                throw new Exception("Account not exist");
             }
             if (!string.IsNullOrEmpty(account.Password))
             {
@@ -111,7 +111,7 @@ namespace BookStore.Application.Service
             var accountExit = await _accountRepository.GetByIdAsync(id);
             if (accountExit == null)
             {
-                throw new Exception("Account not exit");
+                throw new Exception("Account not exist");
             }
             accountExit.Password = BCrypt.Net.BCrypt.HashPassword("1");
 
@@ -122,7 +122,7 @@ namespace BookStore.Application.Service
             var accountExit = await _accountRepository.GetByIdAsync(id);
             if (accountExit == null)
             {
-                throw new Exception("Account not exit");
+                throw new Exception("Account not exist");
             }
             if (accountExit.Password == BCrypt.Net.BCrypt.HashPassword(oldPassword))
             {
@@ -136,7 +136,7 @@ namespace BookStore.Application.Service
             var accountExit = await _accountRepository.GetByIdAsync(id);
             if (accountExit == null)
             {
-                throw new Exception("Account not exit");
+                throw new Exception("Account not exist");
             }
             if (accountExit.Role == 0)
             {
