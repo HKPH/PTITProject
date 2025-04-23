@@ -15,8 +15,6 @@ namespace BookStore.Application.Service
         private readonly ICartItemRepository _cartItemRepository;
         private readonly IBookRepository _bookRepository;
         private readonly ICartRepository _cartRepository;
-
-
         private readonly IMapper _mapper;
 
         public OrderService(IOrderRepository orderRepository, IOrderItemRepository orderItemRepository,
@@ -49,7 +47,10 @@ namespace BookStore.Application.Service
            
             var cart = await _cartRepository.GetCartByUserIdAsync(orderDto.UserId);
             var cartItems = await _cartItemRepository.GetCartItemsByCartIdAsync(cart.Id);
-
+            if(cartItems.Count() == 0)
+            {
+                throw new Exception("Cart is empty.");
+            }
 
             decimal? totalAmount = 0;
             foreach (var cartItem in cartItems)
@@ -64,11 +65,6 @@ namespace BookStore.Application.Service
 
             }
 
-            if (totalAmount == 0)
-            {
-                throw new Exception("Failed to create Order.");
-            }
-
             var shipment = new Shipment
             {
                 ShippingAddressId = shipmentDto.ShippingAddressId,
@@ -78,7 +74,7 @@ namespace BookStore.Application.Service
             var createdShipment = await _shipmentRepository.CreateAsync(shipment);
             if (createdShipment == null)
             {
-                throw new Exception("Failed to create Order.");
+                throw new Exception("Failed to create Shipment.");
             }
 
             var payment = new Payment
@@ -90,7 +86,7 @@ namespace BookStore.Application.Service
             var createdPayment = await _paymentRepository.CreateAsync(payment);
             if (createdPayment == null)
             {
-                throw new Exception("Failed to create Order.");
+                throw new Exception("Failed to create Payment.");
             }
 
             var order = new Order
@@ -101,20 +97,22 @@ namespace BookStore.Application.Service
                 PaymentId = createdPayment.Id,
                 ShipmentId = createdShipment.Id,
                 TotalPrice = totalAmount,
-            }; 
-            var createdOrder = await _orderRepository.CreateAsync(order);
-            if (createdOrder == null)
-            {
-                throw new Exception("Failed to create Order.");
-            }
+            };
+
             foreach (var cartItem in cartItems)
             {
                 var book = await _bookRepository.GetByIdAsync(cartItem.BookId);
                 if (book.StockQuantity < cartItem.Quantity)
                 {
-                    throw new Exception($"Not enough stock for book {book.Title}. Available: {book.StockQuantity}, Requested: {cartItem.Quantity}");
+                    throw new Exception("Not enough stock");
                 }
             }
+            var createdOrder = await _orderRepository.CreateAsync(order);
+            if (createdOrder == null)
+            {
+                throw new Exception("Failed to create Order.");
+            }
+
             foreach (var cartItem in cartItems)
             {
                 var book = await _bookRepository.GetByIdAsync(cartItem.BookId);

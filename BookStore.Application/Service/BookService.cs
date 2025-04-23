@@ -88,6 +88,8 @@ namespace BookStore.Application.Service
             return _mapper.Map<IEnumerable<CategoryDto>>(categories);
         }
 
+
+        // Có Category là implicit n-n với Book, có thể add trực tiếp Category vào Book
         public async Task<bool> JoinCategoryToBook(int bookId, int categoryId)
         {
             var check = await _bookRepository.JoinCategoryToBook(bookId, categoryId);
