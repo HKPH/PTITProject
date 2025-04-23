@@ -127,7 +127,7 @@ namespace BookStore.Application.Service
                 var createdorderItem = await _orderItemRepository.CreateAsync(orderItem);
                 if (createdorderItem == null)
                 {
-                    throw new Exception("Failed to create Order.");
+                    throw new Exception("Failed to create OrderItem");
                 }
                 book.StockQuantity -= cartItem.Quantity;
                 await _bookRepository.UpdateAsync(book, cartItem.BookId);
@@ -199,6 +199,10 @@ namespace BookStore.Application.Service
         public async Task<bool> UpdateStatusAsync(int status, int id)
         {
             var order = await _orderRepository.GetByIdAsync(id);
+            if(order == null)
+            {
+                throw new Exception("Order not found.");
+            }    
             order.Status = status;
             if(order.Status == 3)
             {
