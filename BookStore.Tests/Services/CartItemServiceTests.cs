@@ -346,26 +346,44 @@ namespace BookStore.Tests.Services
             Assert.Equal("CartItem not found.", ex.Message);
         }
 
-      
+
         [Theory]
         [InlineData(1)]
         [InlineData(2)]
         public async Task GetCartItemsByCartIdAsync_ValidId_ShouldReturnItems(int cartId)
         {
             // Arrange
+            var cartItems = new List<CartItem>
+    {
+        new CartItem { CartId = cartId, BookId = 1, Quantity = 1 }
+    };
+
+            var cartItemDtos = new List<CartItemDto>
+    {
+        new CartItemDto { CartId = cartId, BookId = 1, Quantity = 1 }
+    };
+
             var cartItemRepositoryMock = new Mock<ICartItemRepository>();
             cartItemRepositoryMock
                 .Setup(x => x.GetCartItemsByCartIdAsync(cartId))
-                .ReturnsAsync(new List<CartItem> { new CartItem { CartId = cartId, BookId = 1, Quantity = 1 } });
+                .ReturnsAsync(cartItems);
 
-            var cartItemService = new CartItemService(cartItemRepositoryMock.Object, new Mock<IMapper>().Object);
+            var mapperMock = new Mock<IMapper>();
+            mapperMock
+                .Setup(m => m.Map<IEnumerable<CartItemDto>>(cartItems))
+                .Returns(cartItemDtos);
+
+            var cartItemService = new CartItemService(cartItemRepositoryMock.Object, mapperMock.Object);
 
             // Act
             var result = await cartItemService.GetCartItemsByCartIdAsync(cartId);
 
             // Assert
+            Assert.NotNull(result);
             Assert.NotEmpty(result);
+            Assert.All(result, item => Assert.Equal(cartId, item.CartId));
         }
+
 
         [Theory]
         [InlineData(999)] 

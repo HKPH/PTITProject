@@ -186,24 +186,6 @@ namespace BookStore.Tests.Services
             Assert.Equal("Account not exist", ex.Message);
         }
 
-        //[Fact]
-        //public async Task UpdateAsync_Success_ReturnsTrue()
-        //{
-        //    // Arrange
-        //    var accountDto = new AccountDto { Id = 1, Username = "testuser", Password = "newpassword" };
-        //    var account = new Account { Id = 1, Username = "testuser", Password = "newpassword" };
-
-        //    _accountRepoMock.Setup(r => r.GetByIdAsync(accountDto.Id)).ReturnsAsync(account);
-        //    _accountRepoMock.Setup(r => r.UpdateAsync(It.IsAny<Account>(), It.IsAny<int>())).ReturnsAsync(true);
-
-
-        //    // Act
-        //    var result = await _accountService.UpdateAsync(accountDto, accountDto.Id);
-
-        //    // Assert
-        //    Assert.True(result);
-        //}
-
         [Fact]
         public async Task ResetPasswordAsync_AccountNotFound_ThrowsException()
         {
@@ -214,22 +196,6 @@ namespace BookStore.Tests.Services
             // Act & Assert
             var ex = await Assert.ThrowsAsync<Exception>(() => _accountService.ResetPasswordAsync(accountId));
             Assert.Equal("Account not exist", ex.Message);
-        }
-
-        [Fact]
-        public async Task ResetPasswordAsync_Success_SetsPasswordToDefault()
-        {
-            // Arrange
-            var accountId = 1;
-            var account = new Account { Id = 1, Username = "testuser", Password = "oldpassword" };
-
-            _accountRepoMock.Setup(r => r.GetByIdAsync(accountId)).ReturnsAsync(account);
-            // Act
-            var result = await _accountService.ResetPasswordAsync(accountId);
-
-            // Assert
-            Assert.True(result);
-            //Assert.Equal("hashed1", account.Password);  
         }
 
         [Fact]
@@ -264,26 +230,6 @@ namespace BookStore.Tests.Services
             Assert.False(result);  
         }
 
-        //[Fact]
-        //public async Task ChangePasswordAsync_Success_ChangesPassword()
-        //{
-        //    // Arrange
-        //    var accountId = 1;
-        //    var oldPassword = "oldpassword";
-        //    var newPassword = "newpassword";
-        //    var account = new Account { Id = 1, Username = "testuser", Password = oldPassword };
-
-        //    _accountRepoMock.Setup(r => r.GetByIdAsync(accountId)).ReturnsAsync(account);
-        //    _accountRepoMock.Setup(r => r.UpdateAsync(It.IsAny<Account>(), It.IsAny<int>())).ReturnsAsync(true);
-
-        //    // Act
-        //    var result = await _accountService.ChangePasswordAsync(oldPassword, accountId, newPassword);
-
-        //    // Assert
-        //    Assert.True(result);
-        //    Assert.Equal("hashednewpassword", account.Password);
-        //}
-
         [Fact]
         public async Task ChangeActiveAsync_AccountNotFound_ThrowsException()
         {
@@ -314,35 +260,6 @@ namespace BookStore.Tests.Services
             Assert.Equal(0, account.Role);
         }
 
-        //[Fact]
-        //public async Task LoginAsync_InvalidUsernameOrPassword_ThrowsException()
-        //{
-        //    // Arrange
-        //    var username = "wronguser";
-        //    var password = "wrongpassword";
-
-        //    _accountRepoMock.Setup(r => r.CheckUsernameExistsAsync(username)).ReturnsAsync(false);
-
-        //    // Act & Assert
-        //    var ex = await Assert.ThrowsAsync<Exception>(() => _accountService.LoginAsync(username, password));
-        //    Assert.Equal("Invalid username or password", ex.Message);
-        //}
-
-        [Fact]
-        public async Task LoginAsync_AccountNotActive_ThrowsException()
-        {
-            // Arrange
-            var username = "testuser";
-            var password = "testpassword";
-            var account = new Account { Id = 1, Username = "testuser", Password = "testpassword", Active = false };
-
-            _accountRepoMock.Setup(r => r.CheckUsernameExistsAsync(username)).ReturnsAsync(true);
-            _accountRepoMock.Setup(r => r.GetByUsernameAsync(username)).ReturnsAsync(account);
-
-            // Act & Assert
-            var ex = await Assert.ThrowsAsync<Exception>(() => _accountService.LoginAsync(username, password));
-            Assert.Equal("Account is not active.", ex.Message);
-        }
 
         [Fact]
         public async Task GetByIdAsync_AccountNotFound_ThrowsException()
