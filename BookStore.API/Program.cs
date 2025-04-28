@@ -112,6 +112,8 @@ builder.Logging.AddConsole();
 builder.Logging.AddDebug();
 
 var app = builder.Build();
+
+app.Urls.Add("http://0.0.0.0:5000");
 app.UseCors("AllowSpecificOrigin");
 
 app.UseMiddleware<CachingMiddleware>();

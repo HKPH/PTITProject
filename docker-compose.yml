@@ -1,0 +1,45 @@
+services:
+  bookstore.api:
+    container_name: bookstore.api
+    build:
+      context: .
+      dockerfile: BookStore.API/Dockerfile
+    ports:
+      - "5000:5000" 
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultConnection: Server=sqlserver;Database=BookStore;User=sa;Password=PassSQL123!;TrustServerCertificate=True;
+      Redis__Configuration: redis:6379
+    depends_on:
+      - sqlserver
+      - redis
+    networks:
+      - backend
+
+  sqlserver:
+    container_name: sqlserver
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    ports:
+      - "11433:1433"
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "PassSQL123!"
+    networks:
+      - backend
+    volumes:
+      - sqlserverdata:/var/opt/mssql
+
+  redis:
+    container_name: redis
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge
+
+volumes:
+  sqlserverdata:
