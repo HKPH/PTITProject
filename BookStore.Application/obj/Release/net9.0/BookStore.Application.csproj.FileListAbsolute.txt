@@ -1,0 +1,13 @@
+D:\Project\ASP.NET\BookStore\BookStore.Application\bin\Release\net9.0\BookStore.Application.deps.json
+D:\Project\ASP.NET\BookStore\BookStore.Application\bin\Release\net9.0\BookStore.Application.dll
+D:\Project\ASP.NET\BookStore\BookStore.Application\bin\Release\net9.0\BookStore.Application.pdb
+D:\Project\ASP.NET\BookStore\BookStore.Application\obj\Release\net9.0\BookStore.Application.csproj.AssemblyReference.cache
+D:\Project\ASP.NET\BookStore\BookStore.Application\obj\Release\net9.0\BookStore.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\ASP.NET\BookStore\BookStore.Application\obj\Release\net9.0\BookStore.Application.AssemblyInfoInputs.cache
+D:\Project\ASP.NET\BookStore\BookStore.Application\obj\Release\net9.0\BookStore.Application.AssemblyInfo.cs
+D:\Project\ASP.NET\BookStore\BookStore.Application\obj\Release\net9.0\BookStore.Application.csproj.CoreCompileInputs.cache
+D:\Project\ASP.NET\BookStore\BookStore.Application\obj\Release\net9.0\BookStore.Application.sourcelink.json
+D:\Project\ASP.NET\BookStore\BookStore.Application\obj\Release\net9.0\BookStore.Application.dll
+D:\Project\ASP.NET\BookStore\BookStore.Application\obj\Release\net9.0\refint\BookStore.Application.dll
+D:\Project\ASP.NET\BookStore\BookStore.Application\obj\Release\net9.0\BookStore.Application.pdb
+D:\Project\ASP.NET\BookStore\BookStore.Application\obj\Release\net9.0\ref\BookStore.Application.dll

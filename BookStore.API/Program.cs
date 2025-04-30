@@ -19,10 +19,12 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowSpecificOrigin",
-        builder => builder.WithOrigins("http://localhost:3000")
-                          .AllowAnyHeader()
-                          .AllowAnyMethod());
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
 });
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 builder.Services.AddDbContext<BookStoreContext>(options =>
@@ -113,8 +115,7 @@ builder.Logging.AddDebug();
 
 var app = builder.Build();
 
-app.Urls.Add("http://0.0.0.0:5000");
-app.UseCors("AllowSpecificOrigin");
+app.UseCors("AllowAll");
 
 app.UseMiddleware<CachingMiddleware>();
 

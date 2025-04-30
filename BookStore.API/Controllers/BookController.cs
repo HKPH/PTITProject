@@ -22,7 +22,7 @@ namespace BookStore.Api.Controllers
         // GET: api/Book
         [HttpGet]
         //[Authorize(Policy = "UserOrAdmin")]
-        //[Cached(60)]
+        [Cached(60)]
         public async Task<IActionResult> GetAllBooks(int page = 1, int pageSize = 10, string ? category = null, string ? sortBy = null, bool isDescending = false, string ? searchTerm = null)
         {
             var paginatedBooks = await _bookService.GetAllAsync(page, pageSize, category, sortBy, isDescending, searchTerm);

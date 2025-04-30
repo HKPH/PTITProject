@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "Tevc0WV4QfTFqkTR1rq1pMY3lE7s/4cnfQAo6ZWfBRI=",
+  "Source": "BookStore.API",
+  "BasePath": "_content/BookStore.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BookStore.API\\wwwroot",
+      "Source": "BookStore.API",
+      "ContentRoot": "D:\\Project\\ASP.NET\\BookStore\\BookStore.API\\wwwroot\\",
+      "BasePath": "_content/BookStore.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}
