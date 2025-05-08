@@ -1,11 +1,12 @@
-// src/services/authService.ts
 import axios from 'axios';
 
 const API_URL = 'https://localhost:7262/api/Account';
 
 export const login = async (username: string, password: string) => {
-  return axios.post(`${API_URL}/login`, { username, password });
+  const response = await axios.post(`${API_URL}/login`, { username, password });
+  return response.data;
 };
+
 
 export const register = async (accountData: {
   account: {

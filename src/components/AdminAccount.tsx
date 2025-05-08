@@ -25,7 +25,7 @@ export interface UserInfo {
   active: boolean;
 }
 
-const AccountList: React.FC = () => {
+const AdminAccount: React.FC = () => {
   const [accounts, setAccounts] = useState<Account[]>([]);
   const [loading, setLoading] = useState(false);
   const [page, setPage] = useState(1);
@@ -48,7 +48,7 @@ const AccountList: React.FC = () => {
       setAccounts(data.items);
       setTotalAccounts(data.totalCount);
     } catch (error) {
-      message.error("Failed to load accounts");
+      message.error("Không thể tải danh sách tài khoản");
     } finally {
       setLoading(false);
     }
@@ -59,15 +59,15 @@ const AccountList: React.FC = () => {
     setPage(1);
   };
 
-  const handleToggleActive = async (accountId: number, active: boolean) => {
+  const handleToggleActive = async (accountId: number, role: number) => {
     try {
       await toggleAccountActive(accountId);
-      message.success(`Tài khoản đã ${active ? 'tắt' : 'bật'} hoạt động`);
       fetchAccounts();
     } catch (error) {
       message.error("Không thể thay đổi trạng thái tài khoản");
     }
   };
+
 
   const handleResetPassword = async (accountId: number) => {
     try {
@@ -82,7 +82,6 @@ const AccountList: React.FC = () => {
     setSelectedAccount(account);
     setIsModalVisible(true);
 
-    // Gọi API để lấy thông tin cá nhân
     try {
       const userData = await getUserInfo(account.id);
       setUserInfo(userData);
@@ -113,24 +112,39 @@ const AccountList: React.FC = () => {
         rowKey="id"
         pagination={false}
         columns={[
-          { title: 'ID', dataIndex: 'id', key: 'id' },
-          { title: 'Username', dataIndex: 'username', key: 'username' },
-          { title: 'Role', dataIndex: 'role', key: 'role' },
-          { title: 'Active', dataIndex: 'active', key: 'active', render: (active) => (active ? 'Yes' : 'No') },
-          { title: 'Create Date', dataIndex: 'createDate', key: 'createDate', render: (date: string) => dayjs(date).format('DD/MM/YYYY') },
           {
-            title: 'Actions',
+            title: 'ID', dataIndex: 'id', key: 'id', render: (id: number, account: Account) => (
+              <a onClick={() => handleShowDetails(account)} style={{ cursor: 'pointer' }}>
+                {id}
+              </a>
+            )
+          },
+
+          { title: 'Username', dataIndex: 'username', key: 'username' },
+          {
+            title: 'Vai trò',
+            dataIndex: 'role',
+            key: 'role',
+            render: (role: number) => (
+              <span>{role === 0 ? 'Admin' : role === 1 ? 'Customer' : 'Unknown'}</span>
+            )
+          },
+          { title: 'Ngày tạo', dataIndex: 'createDate', key: 'createDate', render: (date: string) => dayjs(date).format('DD/MM/YYYY') },
+          {
+            title: 'Thao tác',
             key: 'actions',
             render: (_, account: Account) => (
               <div>
-                <Button onClick={() => handleToggleActive(account.id, account.active)} danger style={{ marginRight: 10 }}>
-                  {account.active ? 'Tắt hoạt động' : 'Bật hoạt động'}
+                <Button
+                  onClick={() => handleToggleActive(account.id, account.role)}
+                  danger
+                  style={{ marginRight: 10, minWidth: 120 }}
+                >
+                  {account.role === 0 ? 'Thu hồi' : 'Thăng cấp'}
                 </Button>
+
                 <Button onClick={() => handleResetPassword(account.id)} type="primary" style={{ marginRight: 10 }}>
                   Reset mật khẩu
-                </Button>
-                <Button onClick={() => handleShowDetails(account)} type="link">
-                  Thông tin chi tiết
                 </Button>
               </div>
             )
@@ -148,28 +162,35 @@ const AccountList: React.FC = () => {
       {/* Modal for showing details */}
       <Modal
         title={`Thông tin tài khoản: ${selectedAccount?.username}`}
-        visible={isModalVisible}
+        open={isModalVisible}
         onCancel={handleCancelModal}
         footer={null}
         width={600}
       >
-        <Tabs defaultActiveKey="personal" activeKey={modalTabKey} onChange={handleTabChange}>
-          <Tabs.TabPane tab="Thông tin cá nhân" key="personal">
-            <p><strong>Tên:</strong> {userInfo?.name}</p>
-            <p><strong>Số điện thoại:</strong> {userInfo?.phone}</p>
-            <p><strong>Email:</strong> {userInfo?.email}</p>
-            <p><strong>Địa chỉ:</strong> {userInfo?.address}</p>
-            <p><strong>Ngày sinh:</strong> {dayjs(userInfo?.dob).format('DD/MM/YYYY')}</p>
-            <p><strong>Giới tính:</strong> {userInfo?.gender === 0 ? 'Nam' : 'Nữ'}</p>
-            <p><strong>Trạng thái:</strong> {userInfo?.active ? 'Hoạt động' : 'Không hoạt động'}</p>
-          </Tabs.TabPane>
-          <Tabs.TabPane tab="Đơn hàng" key="orders">
-            <p>Thông tin đơn hàng sẽ được hiển thị ở đây.</p>
-          </Tabs.TabPane>
-        </Tabs>
+        <Tabs
+          defaultActiveKey="personal"
+          activeKey={modalTabKey}
+          onChange={handleTabChange}
+          items={[
+            {
+              key: 'personal',
+              label: 'Thông tin cá nhân',
+              children: (
+                <>
+                  <p><strong>Tên:</strong> {userInfo?.name}</p>
+                  <p><strong>Số điện thoại:</strong> {userInfo?.phone}</p>
+                  <p><strong>Email:</strong> {userInfo?.email}</p>
+                  <p><strong>Địa chỉ:</strong> {userInfo?.address}</p>
+                  <p><strong>Ngày sinh:</strong> {dayjs(userInfo?.dob).format('DD/MM/YYYY')}</p>
+                  <p><strong>Giới tính:</strong> {userInfo?.gender === 0 ? 'Nam' : 'Nữ'}</p>
+                </>
+              ),
+            },
+          ]}
+        />
       </Modal>
     </div>
   );
 };
 
-export default AccountList;
+export default AdminAccount;

@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Table, Button, Modal, Form, Input, InputNumber, message, Pagination, AutoComplete, Select } from 'antd';
-import { getBooks, getBookById, updateBook, deleteBook, createBook, getCategoriesByBookId, joinCategoryToBook } from '../api/bookApi';
+import { getBooks, getBookById, updateBook, deleteBook, createBook, getCategoriesByBookId, joinCategoryToBook, uploadImage } from '../api/bookApi';
 import { getPublisherById, getAllPublishers, createPublisher } from '../api/publisherApi';
-import { getAllCategories, getCategoryById, createCategory } from '../api/categoryApi';
+import { getAllCategories, createCategory } from '../api/categoryApi';
+import { addBookRC, deleteBookRC } from '../api/recommendApi';
 import dayjs from 'dayjs';
 import { useCallback } from 'react';
-import { UpOutlined, DownOutlined } from '@ant-design/icons';
-
+import { Upload } from 'antd';
+import { UploadOutlined } from '@ant-design/icons';
 interface Book {
   id: number;
   title: string;
@@ -22,7 +23,7 @@ interface Book {
   categories?: { id: number; name: string }[];
 }
 
-const BookList: React.FC = () => {
+const AdminBook: React.FC = () => {
   const [books, setBooks] = useState<Book[]>([]);
   const [loading, setLoading] = useState(false);
   const [selectedBook, setSelectedBook] = useState<Book | null>(null);
@@ -32,26 +33,27 @@ const BookList: React.FC = () => {
   const [isCreating, setIsCreating] = useState(false);
 
   const [totalBooks, setTotalBooks] = useState(0);
-  const [sortBy, setSortBy] = useState<string>('newest'); // Default sort option
-  const [searchTerm, setSearchTerm] = useState<string>(''); // Search term input  
-  const [isActive, setIsActive] = useState(false);
-  // Publisher states
+  const [searchTerm, setSearchTerm] = useState<string>('');
+
+
+  const [sortBy, setSortBy] = useState<string>('Mới nhất');
+  const [sortByTitle, setSortByTitle] = useState<string>('Mới nhất');
+  const [activeSort, setActiveSort] = useState(false);
+
   const [publishers, setPublishers] = useState<{ id: number; name: string }[]>([]);
   const [publisherInput, setPublisherInput] = useState<string>('');
   const [selectedPublisherId, setSelectedPublisherId] = useState<number | null>(null);
-  const [isCreatingPublisher, setIsCreatingPublisher] = useState(false);
 
-  // Category states
   const [categories, setCategories] = useState<{ id: number; name: string }[]>([]);
   const [selectedCategories, setSelectedCategories] = useState<number | null>(null);
   const [categoryInput, setCategoryInput] = useState<string>('');
-  const [isCreatingCategory, setIsCreatingCategory] = useState(false);
   const [selectedCategoriesList, setSelectedCategoriesList] = useState<{ id: number; name: string }[]>([]);
 
+  const [forceRender, setForceRender] = useState(false);
 
   useEffect(() => {
     fetchBooks();
-  }, [page, sortBy, isActive, searchTerm]);
+  }, [page, sortBy, activeSort, searchTerm]);
 
   useEffect(() => {
     fetchPublishers(publisherInput);
@@ -64,7 +66,7 @@ const BookList: React.FC = () => {
   const fetchBooks = useCallback(async () => {
     setLoading(true);
     try {
-      const data = await getBooks(page, 10, undefined, sortBy, isActive, searchTerm);
+      const data = await getBooks(page, 10, undefined, sortBy, activeSort, searchTerm);
       console.log(data);
       if (data && Array.isArray(data.items)) {
         const formattedBooks = await Promise.all(data.items.map(async (book: Book) => {
@@ -73,7 +75,7 @@ const BookList: React.FC = () => {
             const categories = await getCategoriesByBookId(book.id);
             return {
               ...book,
-              author: book.author,
+              author: cleanAuthor(book.author),
               publisherName: publisher.name,
               categories: categories || [],
             };
@@ -98,7 +100,7 @@ const BookList: React.FC = () => {
     } finally {
       setLoading(false);
     }
-  }, [page, sortBy, isActive, searchTerm]);
+  }, [page, sortBy, activeSort, searchTerm]);
 
   const fetchPublishers = async (searchTerm: string = '') => {
     try {
@@ -127,9 +129,8 @@ const BookList: React.FC = () => {
   const handlePublisherSelect = (value: string) => {
     const publisher = publishers.find(p => p.name === value);
     if (publisher) {
-      setPublisherInput(value);
+      setPublisherInput('');
       setSelectedPublisherId(publisher.id);
-
       form.setFieldsValue({ publisherName: publisher.name });
     }
   };
@@ -138,7 +139,7 @@ const BookList: React.FC = () => {
     const category = categories.find(p => p.name === value);
     if (category) {
       setSelectedCategoriesList(prevList => [...prevList, category]);
-      setCategoryInput(value);
+      setCategoryInput('');
       setSelectedCategories(category.id);
       form.setFieldsValue({ categoryName: category.name });
     }
@@ -158,8 +159,6 @@ const BookList: React.FC = () => {
     }
   };
 
-
-
   const handlePublisherSearch = (value: string) => {
     setPublisherInput(value);
     fetchPublishers(value);
@@ -170,6 +169,10 @@ const BookList: React.FC = () => {
     fetchCategories(value);
   };
 
+  const cleanAuthor = (author: string) => {
+    return author.replace(/[^a-zA-Z, ]/g, "");
+  };
+
   const handleViewDetails = async (id: number) => {
     try {
       const book = await getBookById(id);
@@ -177,7 +180,7 @@ const BookList: React.FC = () => {
       const publisher = await getPublisherById(book.publisherId);
       form.setFieldsValue({
         ...book,
-        author: book.author,
+        author: cleanAuthor(book.author),
         publicationDate: dayjs(book.publicationDate).format('YYYY-MM-DD'),
         publisherId: book.publisherId,
         publisherName: publisher?.name || '',
@@ -209,13 +212,31 @@ const BookList: React.FC = () => {
         };
 
         await updateBook(selectedBook.id, bookToUpdate);
-
         if (selectedCategoriesList.length > 0) {
           console.log(selectedCategoriesList)
           for (const category of selectedCategoriesList) {
-            await joinCategoryToBook(selectedBook.id, category.id); // Gọi API để liên kết danh mục
+            await joinCategoryToBook(selectedBook.id, category.id);
           }
         }
+
+        const categories = await getCategoriesByBookId(selectedBook.id);
+        const categoriesString = categories.map((category: any) => category.name).join(',');
+        const createdBookRC = {
+          id: '',
+          Title: updatedBook.title,
+          description: updatedBook.description || '',
+          authors: updatedBook.author,
+          image: '',
+          publisher: '',
+          publishedDate: '',
+          categories: categoriesString,
+          book_id: selectedBook.id,
+        };
+
+        await deleteBookRC(selectedBook.id)
+        // await addBookRC(createdBookRC);
+
+
         message.success("Book updated successfully");
         fetchBooks();
         handleCloseModal();
@@ -230,24 +251,20 @@ const BookList: React.FC = () => {
     if (selectedBook) {
       try {
         await deleteBook(selectedBook.id);
-        message.success("Book deleted successfully");
+        await deleteBookRC(selectedBook.id);
         fetchBooks();
         handleCloseModal();
       } catch {
-        message.error("Failed to delete book");
       }
     }
   };
 
   const handleCreateBook = async () => {
     try {
-      // Validate the form and get the new book data
       const newBook = await form.validateFields();
 
-      // Parse author field to ensure it's in the right format
       newBook.author = newBook.author;
 
-      // Set publisherId and other necessary fields
       newBook.publisherId = selectedPublisherId;
       newBook.publisherName = publisherInput;
 
@@ -255,41 +272,52 @@ const BookList: React.FC = () => {
       newBook.publicationDate = new Date().toISOString();
       newBook.active = true;
       newBook.stockQuantity = Number(newBook.stockQuantity);
-      newBook.description = newBook.description || "string";
-      newBook.image = newBook.image || "string";
+      newBook.description = newBook.description || '';
+      newBook.image = newBook.image || '';
 
       const createdBook = await createBook(newBook);
-
       if (createdBook && selectedCategoriesList.length > 0) {
         console.log(selectedCategoriesList)
         for (const category of selectedCategoriesList) {
           await joinCategoryToBook(createdBook.id, category.id);
         }
       }
-      // Show success message
-      message.success("Book created successfully");
 
-      // Fetch updated list of books
+      const categories = await getCategoriesByBookId(createdBook.id);
+      const categoriesString = categories.map((category: any) => category.name).join(',');
+      const createdBookRC = {
+        id: '',
+        Title: createdBook.title,
+        description: createdBook.description || '',
+        authors: createdBook.author,
+        image: '',
+        publisher: '',
+        publishedDate: '',
+        categories: categoriesString,
+        book_id: createdBook.id,
+      };
+      console.log(createdBookRC);
+      // await addBookRC(createdBookRC);
+      message.success("Book created successfully");
       fetchBooks();
 
-      // Close the modal
       handleCloseModal();
     } catch (error) {
-      // Show error message if something goes wrong
       message.error("Failed to create book");
-      console.error(error); // Log the error for debugging
+      console.error(error);
     }
   };
 
   const handleCreatePublisher = async () => {
-    try {
-      await createPublisher({ name: publisherInput });
-      message.success("Publisher created successfully");
-      fetchPublishers(); // Refresh the list of publishers
-      setIsCreatingPublisher(false);
-      setPublisherInput(''); // Clear the publisher input
-    } catch (error) {
-      message.error("Failed to create publisher");
+    if (publisherInput) {
+      try {
+        await createPublisher({ name: publisherInput });
+        message.success("Publisher created successfully");
+        fetchPublishers();
+        setPublisherInput('');
+      } catch (error) {
+        message.error("Failed to create publisher");
+      }
     }
   };
 
@@ -298,7 +326,7 @@ const BookList: React.FC = () => {
       try {
         await createCategory({ name: categoryInput });
         message.success("Category created successfully");
-        fetchCategories(); // Refresh category list
+        fetchCategories();
         setCategoryInput('');
       } catch (error) {
         message.error("Failed to create category");
@@ -322,78 +350,124 @@ const BookList: React.FC = () => {
     setSelectedCategoriesList(prevList => prevList.filter(category => category.id !== id));
   };
 
+  const handleImageUpload = async (file: File) => {
+    try {
+      const imageUrl = await uploadImage(file);
+      form.setFieldsValue({ image: imageUrl });
+      setForceRender(!forceRender);
+      console.log('Current form values after setting image:', form.getFieldsValue());
+    } catch (error) {
+      console.error('Error uploading image:', error);
+      message.error('Failed to upload image');
+    }
+  };
+
   const columns = [
-    { title: 'Title', dataIndex: 'title', key: 'title' },
+    { title: 'Tên sách', dataIndex: 'title', key: 'title' },
     {
-      title: 'Author',
+      title: 'Tác giả',
       dataIndex: 'author',
       key: 'author',
-      render: (authors: string) => authors,
+      render: (authors: string) => cleanAuthor(authors),
     },
     {
-      title: 'Publisher',
+      title: 'NSX',
       dataIndex: 'publisherName',
       key: 'publisherName',
     },
     {
-      title: 'Categories',
-      dataIndex: 'categories', // Cột mới cho danh mục
+      title: 'Thể loại',
+      dataIndex: 'categories',
       key: 'categories',
       render: (categories: { id: number; name: string }[]) => (
         categories.map(category => category.name).join(', ')
       ),
     },
     {
-      title: 'Price',
+      title: 'Giá',
       dataIndex: 'price',
       key: 'price',
       render: (price: number) => `${price.toLocaleString()} VND`,
     },
     {
-      title: 'Publication Date',
+      title: 'Ngày XB ',
       dataIndex: 'publicationDate',
       key: 'publicationDate',
       render: (date: string) => dayjs(date).format('DD/MM/YYYY'),
     },
-    { title: 'Stock Quantity', dataIndex: 'stockQuantity', key: 'stockQuantity' },
+    { title: 'Số lượng', dataIndex: 'stockQuantity', key: 'stockQuantity' },
     {
-      title: 'Action',
+      title: 'Thao tác',
       key: 'action',
       render: (_: any, record: Book) => (
-        <Button type="link" onClick={() => handleViewDetails(record.id)}>View</Button>
+        <Button type="link" onClick={() => handleViewDetails(record.id)}>Xem</Button>
       ),
     },
   ];
 
   return (
     <>
-      <div style={{ marginBottom: 16 }}>
-        <Input
-          placeholder="Search by title"
-          value={searchTerm}
-          onChange={e => {
-            setSearchTerm(e.target.value);
-            setPage(1);
-          }}
-          style={{ width: 300 }}
-        />
-        <Select
-          value={sortBy}
-          onChange={value => {
-            setSortBy(value);
-            setPage(1);
-          }}
-          style={{ width: 200, marginRight: 16 }}
-        >
-          <Select.Option value="id">Newest</Select.Option>
-          <Select.Option value="title">Name</Select.Option>
-          <Select.Option value="price">Price</Select.Option>
-        </Select>
+      <div style={{ marginBottom: 16, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <div style={{ display: 'flex', gap: '16px' }}>
+          <Input
+            placeholder="Tìm kiếm theo tên"
+            value={searchTerm}
+            onChange={e => {
+              setSearchTerm(e.target.value);
+              setPage(1);
+            }}
+            style={{ width: 300 }}
+          />
+        </div>
 
-        <Button type="primary" onClick={() => { setIsCreating(true); setIsModalVisible(true); }}>
-          Create New Book
-        </Button>
+        <div style={{ display: 'flex', gap: '16px', alignItems: 'center' }}>
+          <Select
+            value={sortByTitle}
+            onChange={value => {
+
+              if (value === 'id') {
+                setSortByTitle('Mới nhất');
+              } else if (value === 'title-asc') {
+                setSortByTitle('Theo tên tăng dần');
+              } else if (value === 'title-desc') {
+                setSortByTitle('Theo tên giảm dần');
+              } else if (value === 'price-asc') {
+                setSortByTitle('Giá tiền tăng dần');
+              } else if (value === 'price-desc') {
+                setSortByTitle('Giá tiền giảm dần');
+              }
+
+              if (value === 'id') {
+                setActiveSort(false);
+                setSortBy(value);
+              } else {
+                const [field, order] = value.split('-');
+                setSortBy(field);
+
+                if (order === 'asc') {
+                  setActiveSort(true);
+                } else if (order === 'desc') {
+                  setActiveSort(false);
+                }
+              }
+              setPage(1);
+            }}
+            style={{ width: 200 }}
+          >
+            <Select.Option value="id">Mới nhất</Select.Option>
+            <Select.Option value="title-asc">Theo tên tăng dần</Select.Option>
+            <Select.Option value="title-desc">Theo tên giảm dần</Select.Option>
+            <Select.Option value="price-asc">Giá tiền tăng dần</Select.Option>
+            <Select.Option value="price-desc">Giá tiền giảm dần</Select.Option>
+          </Select>
+
+          <Button type="primary" onClick={() => { setIsCreating(true); setIsModalVisible(true); }}>
+            Tạo mới
+          </Button>
+        </div>
       </div>
+
+
 
       <Table
         dataSource={books}
@@ -411,26 +485,26 @@ const BookList: React.FC = () => {
       />
 
       <Modal
-        title={isCreating ? 'Create Book' : 'Update Book'}
+        title={isCreating ? 'Tạo mới' : 'Chi tiết'}
         open={isModalVisible}
         onOk={isCreating ? handleCreateBook : handleUpdate}
         onCancel={handleCloseModal}
         footer={[
-          <Button key="back" onClick={handleCloseModal}>Cancel</Button>,
-          !isCreating && <Button key="delete" type="primary" danger onClick={handleDelete}>Delete</Button>,
+          <Button key="back" onClick={handleCloseModal}>Hủy</Button>,
+          !isCreating && <Button key="delete" type="primary" danger onClick={handleDelete}>Xóa</Button>,
           <Button key="submit" type="primary" onClick={isCreating ? handleCreateBook : handleUpdate}>
-            {isCreating ? 'Create' : 'Update'}
+            {isCreating ? 'Tạo' : 'Cập nhật'}
           </Button>,
         ]}
       >
         <Form form={form} layout="vertical">
-          <Form.Item label="Title" name="title" rules={[{ required: true }]}>
+          <Form.Item label="Tên sách" name="title" rules={[{ required: true }]}>
             <Input />
           </Form.Item>
-          <Form.Item label="Author" name="author" rules={[{ required: true }]}>
+          <Form.Item label="Tác giả" name="author" rules={[{ required: true }]}>
             <Input />
           </Form.Item>
-          <Form.Item label="Publisher" name="publisherName" rules={[{ required: true }]}>
+          <Form.Item label="Nhà xuất bản" name="publisherName" rules={[{ required: true }]}>
             <div style={{ display: 'flex', alignItems: 'center' }}>
               <AutoComplete
                 options={
@@ -448,7 +522,7 @@ const BookList: React.FC = () => {
               <Button onClick={() => { handleCreatePublisher(); }}>+</Button>
             </div>
           </Form.Item>
-          <Form.Item label="Categories" name="categories">
+          <Form.Item label="Thể loại" name="categories" rules={[{ required: false }]}>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginBottom: '8px' }}>
               {selectedCategoriesList.map(category => (
                 <div
@@ -491,15 +565,44 @@ const BookList: React.FC = () => {
               <Button onClick={() => handleCreateCategory()}>+</Button>
             </div>
           </Form.Item>
-
-          <Form.Item label="Price" name="price" rules={[{ required: true }]}>
+          <Form.Item label="Mô tả" name="description" rules={[{ required: true }]}>
+            <Input.TextArea rows={4} />
+          </Form.Item>
+          <Form.Item label="Số lượng" name="stockQuantity" rules={[{ required: true }]}>
             <InputNumber min={0} style={{ width: '100%' }} />
           </Form.Item>
-          {/* Add more fields as necessary */}
+
+          <Form.Item label="Giá" name="price" rules={[{ required: true }]}>
+            <InputNumber min={0} style={{ width: '100%' }} />
+          </Form.Item>
+          <Form.Item label="Ảnh" name="image" rules={[{ required: true }]}>
+            {form.getFieldValue('image') ? (
+              <img
+                src={form.getFieldValue('image')}
+                alt="Book"
+                style={{ width: '100px', height: '150px', marginBottom: '10px' }}
+              />
+            ) : (
+              <span>No image available</span>
+            )}
+            <Upload
+              accept="image/*"
+              showUploadList={false}
+              beforeUpload={(file) => {
+                handleImageUpload(file);
+                return false;
+              }}
+            >
+              <Button icon={<UploadOutlined />}>Upload Image</Button>
+            </Upload>
+          </Form.Item>
+
+
+
         </Form>
       </Modal>
     </>
   );
 };
 
-export default BookList;
+export default AdminBook;

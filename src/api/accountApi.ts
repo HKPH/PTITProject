@@ -1,32 +1,10 @@
-// accountApi.ts
-import axios from 'axios';
+import axiosInstance from './axiosInstance';
 
 const API_URL = 'https://localhost:7262/api/Account';
 
-interface Account {
-  id: number;
-  username: string;
-  password: string;
-  role: number;
-  email: string;
-  createDate: string;
-  active: boolean;
-}
-
-interface AccountResponse {
-  items: Account[];
-  totalCount: number;
-  pageIndex: number;
-  pageSize: number;
-  hasNextPage: boolean;
-  hasPreviousPage: boolean;
-  totalPages: number;
-}
-
-// Hàm lấy danh sách Account
-export const getAccounts = async (page: number, pageSize: number, searchUsername: string | null = null): Promise<AccountResponse> => {
+export const getAccounts = async (page: number, pageSize: number, searchUsername: string | null = null) => {
   try {
-    const response = await axios.get<AccountResponse>(`${API_URL}`, {
+    const response = await axiosInstance.get(`${API_URL}`, {
       params: {
         page,
         pageSize,
@@ -40,24 +18,20 @@ export const getAccounts = async (page: number, pageSize: number, searchUsername
   }
 };
 
-// Hàm bật/tắt tài khoản
-export const toggleAccountActive = async (accountId: number): Promise<void> => {
+export const toggleAccountActive = async (accountId: number) => {
     try {
-      await axios.put(`${API_URL}/${accountId}/changeActive`);
+      await axiosInstance.put(`${API_URL}/${accountId}/changeActive`);
     } catch (error) {
       console.error("Error toggling account active status:", error);
       throw error;
     }
-  };
-  
+};
 
-// Hàm reset mật khẩu
-export const resetPassword = async (accountId: number): Promise<void> => {
+export const resetPassword = async (accountId: number) => {
     try {
-      await axios.put(`${API_URL}/${accountId}/resetPassword`);
+      await axiosInstance.put(`${API_URL}/${accountId}/resetPassword`);
     } catch (error) {
       console.error("Error resetting password:", error);
       throw error;
     }
-  };
-  
+};
