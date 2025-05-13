@@ -20,7 +20,7 @@ The backend is the core of the system, built with performance and modularity in 
 * ✅ Deployed using **Docker** and hosted on **Microsoft Azure (App Services, Azure SQL, Azure Redis)** for scalability.
 * ✅ Added **unit testing** with xUnit and mocking for key services like `AccountService`, `BookService`, and `OrderService`.
 * ✅ Public Swagger UI available for testing and documenting APIs:
-🔗 [https://<your-api-name>.azurewebsites.net/swagger (replace with actual URL)](https://book-web-b0fpbxf2fbd5fzcx.eastasia-01.azurewebsites.net/swagger/index.html)
+🔗 (https://book-web-b0fpbxf2fbd5fzcx.eastasia-01.azurewebsites.net/swagger/index.html)
 
 ## **Hybrid Recommendation System (AI Module)**
 
