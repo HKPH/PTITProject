@@ -15,7 +15,6 @@ The backend is the core of the system, built with performance and modularity in 
 
 * ✅ Developed **RESTful APIs** for books, users, carts, orders, ratings, authentication, and admin functions.
 * ✅ Applied **Clean Architecture** with layered separation (API, Application, Infrastructure).
-* ✅ Utilized **Entity Framework Core** with **Fluent API** for database modeling.
 * ✅ Implemented **caching using Redis** for performance-critical endpoints (e.g., recommendations).
 * ✅ Integrated **JWT Authentication with Refresh Tokens**.
 * ✅ Deployed using **Docker** and hosted on **Microsoft Azure (App Services, Azure SQL, Azure Redis)** for scalability.
